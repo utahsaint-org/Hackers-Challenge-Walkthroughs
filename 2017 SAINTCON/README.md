@@ -88,10 +88,10 @@ Incomplete
 - [WOPR or GIBSON](SAINTCON/WOPR%20or%20GIBSON/)
 
 ### SE/OSINT
-- [Get Engineered](SE:OSINT/Get%20Engineered/)
-- [PwnTheCon](SE:OSINT/PwnTheCon/)
-- [Secret Agent](SE:OSINT/Secret%20Agent/)
-- [exciting](SE:OSINT/exciting/)
+- [Get Engineered](SE%3AOSINT/Get%20Engineered/)
+- [PwnTheCon](SE%3AOSINT/PwnTheCon/)
+- [Secret Agent](SE%3AOSINT/Secret%20Agent/)
+- [exciting](SE%3AOSINT/exciting/)
 
 ### gnireenignE esreveR
 - [Malware](gnireenignE%20esreveR/Malware/)
