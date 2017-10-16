@@ -30,25 +30,25 @@ Complete
 Incomplete
 -------------
 ### Binary L33tn355
-- [Something Phishy](Binary L33tn355/Something Phishy/)
-- [foobar](Binary L33tn355/foobar/)
-- [modulator](Binary L33tn355/modulator/)
+- [Something Phishy](Binary%20L33tn355/Something%20Phishy/)
+- [foobar](Binary%20L33tn355/foobar/)
+- [modulator](Binary%20L33tn355/modulator/)
 
 ### Capture the Packet
-- [GET](Capture the Packet/GET/)
-- [NotSoSimple](Capture the Packet/NotSoSimple/)
-- [m0m](Capture the Packet/m0m/)
+- [GET](Capture%20the%20Packet/GET/)
+- [NotSoSimple](Capture%20the%20Packet/NotSoSimple/)
+- [m0m](Capture%20the%20Packet/m0m/)
 
 ### Crypto Madness
-- [7BaconBits](Crypto Madness/7BaconBits/)
-- [Crypto101](Crypto Madness/Crypto101/)
-- [Difficult Admission](Crypto Madness/Difficult Admission/)
+- [7BaconBits](Crypto%20Madness/7BaconBits/)
+- [Crypto101](Crypto%20Madness/Crypto101/)
+- [Difficult Admission](Crypto%20Madness/Difficult%20Admission/)
 
 ### Double Jeopardy
-- [CASEFILE](Double Jeopardy/CASEFILE/)
-- [Ridiculous Regex](Double Jeopardy/Ridiculous Regex/)
-- [SecurityCode](Double Jeopardy/SecurityCode/)
-- [SoMuchFun](Double Jeopardy/SoMuchFun/)
+- [CASEFILE](Double%20Jeopardy/CASEFILE/)
+- [Ridiculous Regex](Double%20Jeopardy/Ridiculous%20Regex/)
+- [SecurityCode](Double%20Jeopardy/SecurityCode/)
+- [SoMuchFun](Double%20Jeopardy/SoMuchFun/)
 
 ### EcuasBoon
 - [CuckoosEgg](EcuasBoon/CuckoosEgg/)
@@ -68,33 +68,33 @@ Incomplete
 - [BLACK](LockPick/BLACK/)
 
 ### Potent Pwnables
-- [BLEeding](Potent Pwnables/BLEeding/)
-- [EasyBee](Potent Pwnables/EasyBee/)
-- [Fortune](Potent Pwnables/Fortune/)
+- [BLEeding](Potent%20Pwnables/BLEeding/)
+- [EasyBee](Potent%20Pwnables/EasyBee/)
+- [Fortune](Potent%20Pwnables/Fortune/)
 
 ### Pursuits Trivial
-- [8.5x11](Pursuits Trivial/8.5x11/)
-- [Car1](Pursuits Trivial/Car1/)
-- [MazeRunner](Pursuits Trivial/MazeRunner/)
-- [WHOPPER](Pursuits Trivial/WHOPPER/)
-- [matrix](Pursuits Trivial/matrix/)
+- [8.5x11](Pursuits%20Trivial/8.5x11/)
+- [Car1](Pursuits%20Trivial/Car1/)
+- [MazeRunner](Pursuits%20Trivial/MazeRunner/)
+- [WHOPPER](Pursuits%20Trivial/WHOPPER/)
+- [matrix](Pursuits%20Trivial/matrix/)
 
 ### SAINTCON
-- [BADGE Crypto](SAINTCON/BADGE Crypto/)
+- [BADGE Crypto](SAINTCON/BADGE%20Crypto/)
 - [BADGE1](SAINTCON/BADGE1/)
 - [BADGE2](SAINTCON/BADGE2/)
 - [HC-MiniBadge-HEX](SAINTCON/HC-MiniBadge-HEX/)
-- [MiniBadge Codes](SAINTCON/MiniBadge Codes/)
-- [WOPR or GIBSON](SAINTCON/WOPR or GIBSON/)
+- [MiniBadge Codes](SAINTCON/MiniBadge%20Codes/)
+- [WOPR or GIBSON](SAINTCON/WOPR%20or%20GIBSON/)
 
 ### SE/OSINT
-- [Get Engineered](SE:OSINT/Get Engineered/)
+- [Get Engineered](SE:OSINT/Get%20Engineered/)
 - [PwnTheCon](SE:OSINT/PwnTheCon/)
-- [Secret Agent](SE:OSINT/Secret Agent/)
+- [Secret Agent](SE:OSINT/Secret%20Agent/)
 - [exciting](SE:OSINT/exciting/)
 
 ### gnireenignE esreveR
-- [Malware](gnireenignE esreveR/Malware/)
-- [NoRE4U](gnireenignE esreveR/NoRE4U/)
-- [Rolling](gnireenignE esreveR/Rolling/)
-- [Secure IoT](gnireenignE esreveR/Secure IoT/)
+- [Malware](gnireenignE%20esreveR/Malware/)
+- [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
+- [Rolling](gnireenignE%20esreveR/Rolling/)
+- [Secure IoT](gnireenignE%20esreveR/Secure%20IoT/)
