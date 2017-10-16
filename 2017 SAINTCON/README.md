@@ -15,6 +15,7 @@ Complete
 -----------
 ### Binary L33tn355
 ### Capture the Packet
+- [m0m](Capture%20the%20Packet/m0m/)
 ### Crypto Madness
 ### Double Jeopardy
 ### EcuasBoon
@@ -39,7 +40,6 @@ Incomplete
 ### Capture the Packet
 - [GET](Capture%20the%20Packet/GET/)
 - [NotSoSimple](Capture%20the%20Packet/NotSoSimple/)
-- [m0m](Capture%20the%20Packet/m0m/)
 
 ### Crypto Madness
 - [7BaconBits](Crypto%20Madness/7BaconBits/)
