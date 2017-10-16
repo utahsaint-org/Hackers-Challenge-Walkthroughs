@@ -13,6 +13,8 @@ Binary Ninja.  Important facts: the first four integer arguments are
 passed in registers `r0`, `r1`, `r2`, and `r3` (in that order).
 Additional arguments are passed relative to the `sp` (e.g. `sp, #4`).
 
+![disassembly](disassembly.png)
+
 Pseudo code for this function:
 
 ```c
@@ -47,6 +49,8 @@ commandline with AES-256-CBC using a key and initialization vector
 
 The key is at `0xbd61c`, the IV is at `0xbd63c`, and the encrypted
 blob is at `0xbd64c`.
+
+![memory dump](memdump.png)
 
 Here's a program that does the decryption.  The flag comes out in
 the result.
