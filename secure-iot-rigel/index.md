@@ -123,3 +123,6 @@ errout:
 	return (1);
 }
 ```
+
+And here's my Binary Ninja [database](secure.bndb).  This walkthrough
+brought to you by Jason L. Wright (jason@thought.net, @risenrigel)
