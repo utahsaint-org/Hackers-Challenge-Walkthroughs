@@ -13,7 +13,7 @@ Binary Ninja.  Important facts: the first four integer arguments are
 passed in registers `r0`, `r1`, `r2`, and `r3` (in that order).
 Additional arguments are passed relative to the `sp` (e.g. `sp, #4`).
 
-![disassembly](disassembly.png)
+![disassembly](disassemly.png)
 
 Pseudo code for this function:
 
