@@ -19,14 +19,21 @@ Complete
 ### Crypto Madness
 ### Double Jeopardy
 ### EcuasBoon
+### gnireenignE esreveR
+- [Rolling](gnireenignE%20esreveR/Rolling/)
+- [Secure IoT](gnireenignE%20esreveR/Secure%20IoT/)
 ### Labs
 ### LockPick
 ### Potent Pwnables
+### Precon
 ### Pursuits Trivial
 ### SAINTCON
+- [BADGE1](SAINTCON/BADGE1/)
+- [BADGE2](SAINTCON/BADGE2/)
+- [HC-MiniBadge-HEX](SAINTCON/HC-MiniBadge-HEX/)
+- [MiniBadge Codes](SAINTCON/MiniBadge%20Codes/)
 ### SE/OSINT
-### gnireenignE esreveR
-- [Rolling](gnireenignE%20esreveR/Rolling/)
+
 
 
 
@@ -58,6 +65,10 @@ Incomplete
 - [Trinity](EcuasBoon/Trinity/)
 - [epoch](EcuasBoon/epoch/)
 
+### gnireenignE esreveR
+- [Malware](gnireenignE%20esreveR/Malware/)
+- [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
+
 ### Labs
 - [EBR](Labs/EBR/)
 - [EternalBlue](Labs/EternalBlue/)
@@ -74,6 +85,11 @@ Incomplete
 - [EasyBee](Potent%20Pwnables/EasyBee/)
 - [Fortune](Potent%20Pwnables/Fortune/)
 
+### Precon
+- [Precon #1](Precon/Precon%20#1)
+- [Precon #2](Precon/Precon%20#2)
+- [Precon #3](Precon/Precon%20#3)
+
 ### Pursuits Trivial
 - [8.5x11](Pursuits%20Trivial/8.5x11/)
 - [Car1](Pursuits%20Trivial/Car1/)
@@ -83,10 +99,6 @@ Incomplete
 
 ### SAINTCON
 - [BADGE Crypto](SAINTCON/BADGE%20Crypto/)
-- [BADGE1](SAINTCON/BADGE1/)
-- [BADGE2](SAINTCON/BADGE2/)
-- [HC-MiniBadge-HEX](SAINTCON/HC-MiniBadge-HEX/)
-- [MiniBadge Codes](SAINTCON/MiniBadge%20Codes/)
 - [WOPR or GIBSON](SAINTCON/WOPR%20or%20GIBSON/)
 
 ### SE/OSINT
@@ -95,7 +107,3 @@ Incomplete
 - [Secret Agent](SE%3AOSINT/Secret%20Agent/)
 - [exciting](SE%3AOSINT/exciting/)
 
-### gnireenignE esreveR
-- [Malware](gnireenignE%20esreveR/Malware/)
-- [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
-- [Secure IoT](gnireenignE%20esreveR/Secure%20IoT/)
