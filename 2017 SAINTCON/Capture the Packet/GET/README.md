@@ -1,6 +1,6 @@
 # DESCRIPTION: #
 
-`
+~~~~
 Puzzle Detail:
 You captured this packet off the wire.  Where is it going?
 
@@ -42,7 +42,7 @@ THEN for Bonus Points:
 THEN: As your flag, submit the destination MAC address
 as HEX, and the destination IP address as dotted decimal,
 and the destination host name as a string, all joined with a + sign.
-`
+~~~~
 
 ## Hint ##
 
