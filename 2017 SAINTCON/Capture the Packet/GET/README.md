@@ -48,4 +48,4 @@ and the destination host name as a string, all joined with a + sign.
 
 You can decode/encode the hex data using the xxd program:
 
-cat get.hex | xxd -r | xxd -g 1 | cat > get.hexdump
+`cat get.hex | xxd -r | xxd -g 1 | cat > get.hexdump`
