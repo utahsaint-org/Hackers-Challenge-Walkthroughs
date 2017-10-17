@@ -9,21 +9,25 @@ The express goals of this years game are:
 
 Walkthroughs
 ==========
-This is a collection of player created walkthroughs for the various challenges through the years.
+This is a collection of player created walkthroughs for the 2017 SAINTCON Hackers Challenges.
 
 Complete
 -----------
 ### Binary L33tn355
 - [foobar](Binary%20L33tn355/foobar/)
+- [Something Phishy](Binary%20L33tn355/Something%20Phishy/)
 ### Capture the Packet
+- [GET](Capture%20the%20Packet/GET/)
 - [m0m](Capture%20the%20Packet/m0m/)
 ### Crypto Madness
 ### Double Jeopardy
 - [CASEFILE](Double%20Jeopardy/CASEFILE/)
 ### EcuasBoon
+- [epoch](EcuasBoon/epoch/)
 ### gnireenignE esreveR
 - [Rolling](gnireenignE%20esreveR/Rolling/)
 - [Secure IoT](gnireenignE%20esreveR/Secure%20IoT/)
+- [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
 ### Labs
 ### LockPick
 ### Potent Pwnables
@@ -42,11 +46,9 @@ Complete
 Incomplete
 -------------
 ### Binary L33tn355
-- [Something Phishy](Binary%20L33tn355/Something%20Phishy/)
 - [modulator](Binary%20L33tn355/modulator/)
 
 ### Capture the Packet
-- [GET](Capture%20the%20Packet/GET/)
 - [NotSoSimple](Capture%20the%20Packet/NotSoSimple/)
 
 ### Crypto Madness
@@ -63,11 +65,9 @@ Incomplete
 - [CuckoosEgg](EcuasBoon/CuckoosEgg/)
 - [Substitution](EcuasBoon/Substitution/)
 - [Trinity](EcuasBoon/Trinity/)
-- [epoch](EcuasBoon/epoch/)
 
 ### gnireenignE esreveR
 - [Malware](gnireenignE%20esreveR/Malware/)
-- [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
 
 ### Labs
 - [EBR](Labs/EBR/)
