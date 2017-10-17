@@ -236,6 +236,7 @@ With key, IV, and data, we can decrypt (see program further up).  Or use [cyberc
 # Credits
 
 This walkthrough brought to you by Jason L. Wright (jason@thought.net,
-@risenrigel)
+@risenrigel).  Props to spectre for the cyberchef-fu and working with me
+to RE.
 
 
