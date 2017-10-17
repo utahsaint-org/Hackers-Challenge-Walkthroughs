@@ -14,10 +14,12 @@ This is a collection of player created walkthroughs for the various challenges t
 Complete
 -----------
 ### Binary L33tn355
+- [foobar](Binary%20L33tn355/foobar/)
 ### Capture the Packet
 - [m0m](Capture%20the%20Packet/m0m/)
 ### Crypto Madness
 ### Double Jeopardy
+- [CASEFILE](Double%20Jeopardy/CASEFILE/)
 ### EcuasBoon
 ### Labs
 ### LockPick
@@ -34,7 +36,6 @@ Incomplete
 -------------
 ### Binary L33tn355
 - [Something Phishy](Binary%20L33tn355/Something%20Phishy/)
-- [foobar](Binary%20L33tn355/foobar/)
 - [modulator](Binary%20L33tn355/modulator/)
 
 ### Capture the Packet
@@ -47,7 +48,6 @@ Incomplete
 - [Difficult Admission](Crypto%20Madness/Difficult%20Admission/)
 
 ### Double Jeopardy
-- [CASEFILE](Double%20Jeopardy/CASEFILE/)
 - [Ridiculous Regex](Double%20Jeopardy/Ridiculous%20Regex/)
 - [SecurityCode](Double%20Jeopardy/SecurityCode/)
 - [SoMuchFun](Double%20Jeopardy/SoMuchFun/)
