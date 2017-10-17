@@ -55,8 +55,4 @@ You can decode/encode the hex data using the xxd program:
 
 At first glance at hexdump with my human eye balls, it appears to be a normal "GET" request:
 
-~~~~
-0000030: 10 2c a9 1f 00 00 01 01 08 0a 3a ae ea 9c 1c 18  .,........:.....
 0000040: 2b c2 *47 45 54 20 2f 20 48 54 54 50 2f 31 2e 31*  +.**GET / HTTP/1.1**
-0000050: 0d 0a 43 6f 6e 6e 65 63 74 69 6f 6e 3a 20 6b 65  ..Connection: ke
-~~~~
