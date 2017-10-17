@@ -124,7 +124,7 @@ Returns: `0x52`
 
 ### GetTickCount (`sub_401130`)
 
-![alt text](images/outputdebugstring.png)
+![alt text](images/gettickcount.png)
 
 This is an oldie but goodie. The program gets the "tick count", or number of CPU ticks since last reboot, and checks it again later. If a debugger is attached and breakpoint is hit, this delta will be much larger than expected.
 
@@ -145,7 +145,7 @@ Returns: `0xf1`
 
 ### GetExitCodeThread (`sub_401160`)
 
-![alt text](images/outputdebugstring.png)
+![alt text](images/getexitcodethread.png)
 
 This function checks the exit code of the thread that was spawned during setup. This is the thread that runs forever, and annoys you with debug breaks, so if that thread is dead it indicates patching or some other circumvention by an analyst.
 
