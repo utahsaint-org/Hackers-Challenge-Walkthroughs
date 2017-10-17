@@ -25,6 +25,7 @@ Complete
 ### Labs
 ### LockPick
 ### Potent Pwnables
+### Precon
 ### Pursuits Trivial
 ### SAINTCON
 - [BADGE1](SAINTCON/BADGE1/)
@@ -83,6 +84,11 @@ Incomplete
 - [BLEeding](Potent%20Pwnables/BLEeding/)
 - [EasyBee](Potent%20Pwnables/EasyBee/)
 - [Fortune](Potent%20Pwnables/Fortune/)
+
+### Precon
+- [Precon #1](Precon/Precon%20#1)
+- [Precon #2](Precon/Precon%20#2)
+- [Precon #3](Precon/Precon%20#3)
 
 ### Pursuits Trivial
 - [8.5x11](Pursuits%20Trivial/8.5x11/)
