@@ -228,7 +228,10 @@ Breakpoint 2, 0x000112f6 in checkFlag ()
 0xbd674 <answer+40>:	0xc1	0xff	0x25	0x9d	0xb9	0x86	0x62	0x7d
 ```
 
-With key, IV, and data, we can decrypt (see program further up).
+With key, IV, and data, we can decrypt (see program further up).  Or use cyberchef as shown below:
+
+![cyberchef](chef.png)
+
 
 # Credits
 
