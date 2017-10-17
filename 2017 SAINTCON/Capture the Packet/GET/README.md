@@ -99,7 +99,7 @@ $ xxd -g 1 live.get.pcap | less
 0004c70: 65 70 2d 61 6c 69 76 65 0d 0a 55 73 65 72 2d 41  ep-alive..User-A
 ~~~~
 
-(I just added the "{" "}" to help denote interesting portions of the hexdump.)
+(I just added the "{" "|" "}" to help denote interesting portions of the hexdump.)
 
 My MAC Addresses are already in HEX in the tcpdump output so those are trivial to spot at offset 0004bf4.
 
@@ -138,12 +138,14 @@ And now that we know the offsets, we can extract the useful information from the
 ~~~~
 head get.hexdump
 
-00000000  80 2a a8 4c 9d e8 a0 99  9b 1d 5d 8f 08 00 45 00  |.*.L......]...E.|
-00000010  01 cd 2a 21 40 00 40 06  05 2f c0 a8 0d 0d cb 00  |..*!@.@../......|
-00000020  71 25 e1 e3 00 50 b0 1c  53 75 3e 58 55 7c 80 18  |q%...P..Su>XU|..|
+00000000 {80 2a a8 4c 9d e8}a0 99  9b 1d 5d 8f 08 00 45 00  |.*.L......]...E.|
+00000010  01 cd 2a 21 40 00 40 06  05 2f c0 a8 0d 0d{cb 00  |..*!@.@../......|
+00000020  71 25}e1 e3 00 50 b0 1c  53 75 3e 58 55 7c 80 18  |q%...P..Su>XU|..|
 00000030  10 2c a9 1f 00 00 01 01  08 0a 3a ae ea 9c 1c 18  |.,........:.....|
-00000040  2b c2 47 45 54 20 2f 20  48 54 54 50 2f 31 2e 31  |+.GET / HTTP/1.1|
+00000040  2b c2{47 45 54}20 2f 20  48 54 54 50 2f 31 2e 31  |+.GET / HTTP/1.1|
 ~~~~
+
+(I just added the "{" "}" to help denote interesting portions of the hexdump.)
 
 We can see the actual data stream starts at offset 0000042 (GET).
 
@@ -157,5 +159,3 @@ $ perl -le 'print join ".", 0xCB,0x00,0x71,0x25'
 ~~~~
 
 Then just put a "+" in between these two strings as explained in the instructions.
-
-80:2a:a8:4c:9d:e8+203.0.113.37
