@@ -31,6 +31,7 @@ Complete
 ### Labs
 ### LockPick
 ### Potent Pwnables
+- [EasyBee](Potent%20Pwnables/EasyBee/)
 ### Precon
 ### Pursuits Trivial
 ### SAINTCON
@@ -82,7 +83,6 @@ Incomplete
 
 ### Potent Pwnables
 - [BLEeding](Potent%20Pwnables/BLEeding/)
-- [EasyBee](Potent%20Pwnables/EasyBee/)
 - [Fortune](Potent%20Pwnables/Fortune/)
 
 ### Precon
