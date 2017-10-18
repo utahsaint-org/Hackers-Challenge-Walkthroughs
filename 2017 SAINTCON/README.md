@@ -83,7 +83,6 @@ Incomplete
 
 ### Potent Pwnables
 - [BLEeding](Potent%20Pwnables/BLEeding/)
-- [EasyBee](Potent%20Pwnables/EasyBee/)
 - [Fortune](Potent%20Pwnables/Fortune/)
 
 ### Precon
