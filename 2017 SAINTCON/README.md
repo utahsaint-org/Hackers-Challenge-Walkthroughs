@@ -31,6 +31,7 @@ Complete
 ### Labs
 ### LockPick
 ### Potent Pwnables
+- [EasyBee](Potent%20Pwnables/EasyBee/)
 ### Precon
 ### Pursuits Trivial
 ### SAINTCON
