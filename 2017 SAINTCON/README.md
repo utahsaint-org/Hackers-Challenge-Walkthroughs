@@ -20,12 +20,15 @@ Complete
 - [GET](Capture%20the%20Packet/GET/)
 - [m0m](Capture%20the%20Packet/m0m/)
 ### Crypto Madness
+- [Crypto101](Crypto%20Madness/Crypto101/)
 ### Double Jeopardy
 - [CASEFILE](Double%20Jeopardy/CASEFILE/)
 ### EcuasBoon
 - [epoch](EcuasBoon/epoch/)
+- [Substitution](EcuasBoon/Substitution/)
 ### gnireenignE esreveR
 - [Rolling](gnireenignE%20esreveR/Rolling/)
+- [Malware](gnireenignE%20esreveR/Malware/)
 - [Secure IoT](gnireenignE%20esreveR/Secure%20IoT/)
 - [NoRE4U](gnireenignE%20esreveR/NoRE4U/)
 ### Labs
@@ -54,7 +57,6 @@ Incomplete
 
 ### Crypto Madness
 - [7BaconBits](Crypto%20Madness/7BaconBits/)
-- [Crypto101](Crypto%20Madness/Crypto101/)
 - [Difficult Admission](Crypto%20Madness/Difficult%20Admission/)
 
 ### Double Jeopardy
@@ -64,11 +66,9 @@ Incomplete
 
 ### EcuasBoon
 - [CuckoosEgg](EcuasBoon/CuckoosEgg/)
-- [Substitution](EcuasBoon/Substitution/)
 - [Trinity](EcuasBoon/Trinity/)
 
 ### gnireenignE esreveR
-- [Malware](gnireenignE%20esreveR/Malware/)
 
 ### Labs
 - [EBR](Labs/EBR/)
