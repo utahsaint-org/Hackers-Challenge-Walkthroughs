@@ -14,14 +14,21 @@ screenshot below.
 
 ![frames.png](frames.png)
 
-The program [modulator.go](modulator.go) is a
-[go](https://golang.org/) program that
-samples one pixel of each LED.  If the light is Green (ON), we
-treat it as a '1' and if it is White (OFF), we treat it as a '0'.
-Each frame is treated as a separate byte. Most significant bit
-is the RD light and MR is the least significant bit (PW is ignored).
+So, let's try treating each light as one bit in a byte: Green (ON) is 1
+and White (OFF) is 0. Let the most significant bit be RD and least
+significant bit by MR (we'll ignore PW).
 
-Note: I believe this may be my first go program.
+Here's what we get when we decode the first 3 frames:
+
+| bits     | hex | character |
+| -------- | --- | --------- |
+| 01011001 |  59 | Y         |
+| 01101111 |  6f | o         |
+| 01110101 |  75 | u         |
+
+The program [modulator.go](modulator.go) is a
+[go](https://golang.org/) program that samples one pixel of
+each LED.  Note: I believe this may be my first go program.
 
 # Result
 
