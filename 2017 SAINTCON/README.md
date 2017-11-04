@@ -16,6 +16,7 @@ Complete
 ### Binary L33tn355
 - [foobar](Binary%20L33tn355/foobar/)
 - [Something Phishy](Binary%20L33tn355/Something%20Phishy/)
+- [modulator](Binary%20L33tn355/modulator/)
 ### Capture the Packet
 - [GET](Capture%20the%20Packet/GET/)
 - [m0m](Capture%20the%20Packet/m0m/)
@@ -50,7 +51,6 @@ Complete
 Incomplete
 -------------
 ### Binary L33tn355
-- [modulator](Binary%20L33tn355/modulator/)
 
 ### Capture the Packet
 - [NotSoSimple](Capture%20the%20Packet/NotSoSimple/)
