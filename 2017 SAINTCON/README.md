@@ -42,7 +42,7 @@ Complete
 - [BADGE2](SAINTCON/BADGE2/)
 - [HC-MiniBadge-HEX](SAINTCON/HC-MiniBadge-HEX/)
 - [MiniBadge Codes](SAINTCON/MiniBadge%20Codes/)
-### SE/OSINT
+### SE-OSINT
 
 
 
@@ -102,8 +102,8 @@ Incomplete
 - [WOPR or GIBSON](SAINTCON/WOPR%20or%20GIBSON/)
 
 ### SE/OSINT
-- [Get Engineered](SE%3AOSINT/Get%20Engineered/)
-- [PwnTheCon](SE%3AOSINT/PwnTheCon/)
-- [Secret Agent](SE%3AOSINT/Secret%20Agent/)
-- [exciting](SE%3AOSINT/exciting/)
+- [Get Engineered](SE-OSINT/Get%20Engineered/)
+- [PwnTheCon](SE-OSINT/PwnTheCon/)
+- [Secret Agent](SE-OSINT/Secret%20Agent/)
+- [exciting](SE-OSINT/exciting/)
 
