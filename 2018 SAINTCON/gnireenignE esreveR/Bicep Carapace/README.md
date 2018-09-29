@@ -1,7 +1,7 @@
 
 # Title
 
-Binary Carapace
+Bicep Carapace
 
 # hint
 
@@ -75,3 +75,84 @@ printf("%s\n", r13);
 # Author
 
 [jason@thought.net](mailto:jason@thought.net), [@risenrigel](https://twitter.com/risenrigel)
+
+
+# alternative method
+
+Let's say you didn't have IDA, but could install the cross binutils for ARM32 little endian (or had access to a raspberry pi with binutils installed). It is totally possible to solve this challenge with just those tools.
+
+```sh
+# convert the raw binary to something with an ELF header
+objcopy -I binary -O elf32-little -B armv5t puzzle puzzle.o
+# disassemble the new file
+objdump --disassemble-all -m armv5t puzzle.o
+```
+
+And here's the disassembly I got. It looks pretty similar to the IDA disassembly, but IDA has been
+kind to us and worked some arithmetic for us.
+
+```
+puzzle.o:     file format elf32-little
+
+
+Disassembly of section .data:
+
+00000000 <_binary_puzzle_start>:
+   0:	e92d4000 	stmfd	sp!, {lr}
+   4:	e24dd017 	sub	sp, sp, #23
+   8:	e3a00000 	mov	r0, #0
+   c:	e1a0300d 	mov	r3, sp
+  10:	e59f4080 	ldr	r4, [pc, #128]	; 98 <_binary_puzzle_start+0x98>
+  14:	e59f5080 	ldr	r5, [pc, #128]	; 9c <_binary_puzzle_start+0x9c>
+
+```
+
+The two LDR statements above look strange because they are PC relative loads, so the first is: R4 gets what ever value is at 0x10 (the current program counter) + 128. I.e. R4 = the value at 0x90 which is 0x60. Similarly, R5 gets the value stores at 0x94 (0x14 + 128), which happens to be 0x76.
+
+What follows is the loop:
+
+```
+  18:	e4d41001 	ldrb	r1, [r4], #1
+  1c:	e4d52001 	ldrb	r2, [r5], #1
+  20:	e0211002 	eor     r1, r1, r2
+  24:	e4c31001 	strb	r1, [r3], #1
+  28:	e2800001 	add     r0, r0, #1
+  2c:	e3500016 	cmp     r0, #22
+  30:	1afffff8 	bne	18 <_binary_puzzle_start+0x18>
+```
+
+Ensure there's a null byte at the end of the string:
+
+```
+  34:	e3a00000 	mov     r0, #0
+  38:	e4c31001 	strb	r1, [r3], #1
+```
+
+And finally, call write(1, str, 0x16)
+
+```
+  3c:	e3a00001 	mov     r0, #1
+  40:	e1a0100d 	mov     r1, sp
+  44:	e3a02016 	mov     r2, #22
+  48:	e3a07004 	mov     r7, #4
+  4c:	ef000000 	svc	0x00000000
+```
+
+unwind the stack (why?! we're going to call exit next =)
+
+```
+  50:	e28dd017 	add	sp, sp, #23
+```
+
+call exit():
+
+```
+  54:	e3a07001 	mov	r7, #1
+  58:	ef000000 	svc	0x00000000
+```
+
+return (in a good world, this line will never run):
+
+```
+  5c:	e8bd8000 	ldmfd	sp!, {pc}
+```
