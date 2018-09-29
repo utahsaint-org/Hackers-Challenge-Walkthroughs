@@ -107,7 +107,7 @@ Disassembly of section .data:
 
 ```
 
-The two LDR statements above look strange because they are PC relative loads, so the first is: R4 gets what ever value is at 0x10 (the current program counter) + 128. I.e. R4 = the value at 0x90 which is 0x60. Similarly, R5 gets the value stores at 0x94 (0x14 + 128), which happens to be 0x76.
+The two LDR statements above look strange because they are PC relative loads, so the first is: R4 gets what ever value is at 0x10 (the current program counter) + 128. I.e. R4 = the value at 0x90 which is 0x60. Similarly, R5 gets the value stored at 0x94 (0x14 + 128), which happens to be 0x76.
 
 What follows is the loop:
 
