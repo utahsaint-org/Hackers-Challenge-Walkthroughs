@@ -21,4 +21,5 @@ Complete
 ### gnireenignE esreveR
 - [keylogger](gnireenignE%20esreveR/keylogger/)
 - [Bicep Carapace](gnireenignE%20esreveR/Bicep%20Carapace/)
-
+### Double Jeopardy
+- [Here's something new..'](doublejeopardy/somethingnew)
