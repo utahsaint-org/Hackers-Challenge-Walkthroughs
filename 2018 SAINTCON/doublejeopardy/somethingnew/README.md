@@ -37,6 +37,10 @@ I bet there are decompilers for it. Sure, enough, I found:
 then I used their utility (wasm2c)[https://github.com/WebAssembly/wabt/blob/master/wasm2c/README.md]
 to translate the wasm file to a almost recognizable C program: [first.c](first.c).
 
+```
+wasm2c -o first.c index.wasm
+```
+
 That C program is ~22000 lines long... ugh! But let's look at just "main". The l* variables are stack variables, and the g* variables are globals. To read and write "main memory", this WASM thing calls out to a
 function called "i32_store(Z_envZ_memory, addr, value);
 
