@@ -75,7 +75,6 @@ key(38) -> L
 When this program sees enough correct key presses it shows a message box with "The key is: ...." So, we just need to use the switch statement cases and the string index comparisons to work out which characters the binary
 wants to have in each location.
 
-
 # Author
 
 [jason@thought.net](mailto:jason@thought.net), [@risenrigel](https://twitter.com/risenrigel)
