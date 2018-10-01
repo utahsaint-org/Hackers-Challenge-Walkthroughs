@@ -34,7 +34,7 @@ curl -o index.wasm https://re.voldemortensen.com/index.wasm
 Ok, I don't know anything about wasm except that, like Java, it's a virtualized environment. Like Java,
 I bet there are decompilers for it. Sure, enough, I found:
 [WABT: The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt). I cloned it, built it, and
-then I used their utility [wasm2c]([)https://github.com/WebAssembly/wabt/blob/master/wasm2c/README.md)
+then I used their utility [wasm2c](https://github.com/WebAssembly/wabt/blob/master/wasm2c/README.md)
 to translate the wasm file to a almost recognizable C program: [first.c](first.c).
 
 ```
