@@ -5,7 +5,7 @@ Logic Bomb
 
 Tick, Tick,
 
-(logicbomb.jar)[logicbomb.jar]
+[logicbomb.jar](logicbomb.jar)
 
 # solution
 
