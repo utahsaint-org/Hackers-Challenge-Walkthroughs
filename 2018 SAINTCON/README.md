@@ -19,6 +19,8 @@ Complete
 - [PHP Fly Casting](Potent_Pwnables/PHP_Fly_Casting.md)
 - [pipebashed](Potent_Pwnables/pipebashed.md)
 ### gnireenignE esreveR
+- [RE 100](gnireenignE%20esreveR/re100/)
+- [Logic Bomb](gnireenignE%20esreveR/logicbomb/)
 - [plugx](gnireenignE%20esreveR/plugx/)
 - [keylogger](gnireenignE%20esreveR/keylogger/)
 - [Bicep Carapace](gnireenignE%20esreveR/Bicep%20Carapace/)
