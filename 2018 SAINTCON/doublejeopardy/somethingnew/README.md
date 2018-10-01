@@ -17,7 +17,7 @@ So let's fetch it...
 curl -o index.html https://re.voldemortensen.com/
 ```
 
-This html refers to a java script: index.js
+This [html](index.html) refers to a java script: [index.js](index.js).
 
 ```
 curl -o index.js https://re.voldemortensen.com/index.js
@@ -25,7 +25,7 @@ curl -o index.js https://re.voldemortensen.com/index.js
 
 This javascript does some funky stuff, but ultimately, it provides a runtime environment for running
 a C++ program retargetted for [WebAssembly (WASM)](https://webassembly.org/). The associated WASM
-file is: index.wasm.
+file is: [index.wasm](index.wasm).
 
 ```
 curl -o index.wasm https://re.voldemortensen.com/index.wasm
