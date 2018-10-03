@@ -17,9 +17,7 @@ Zip file size: 1747633862 bytes, number of entries: 1
 $ unzip pi.zip
 Archive:  pi.zip
   inflating: 2018-06-27-raspbian-stretch-ctf.img
-$ echo `tail -1 2018-06-27-raspbian-stretch-ctf.img`
-RkxBR3tzTGFXXXXXXXXXbU9yWWhPZ30=
-$ perl -le 'use MIME::Base64; print MIME::Base64::decode_base64("RkxBR3tzTGFXXXXXXXXXbU9yWWhPZ30=");'
-FLAG{sLaCkXXXXXXXXXhOg}
+$ strings 2018-06-27-raspbian-stretch-ctf.img | grep -i 'flag{'
+FLAG{DaTaXXXXXXXXXiSkEy}
 $
 ```
