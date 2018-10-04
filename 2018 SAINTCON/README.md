@@ -28,3 +28,6 @@ Complete
 - [Bicep Carapace](gnireenignE%20esreveR/Bicep%20Carapace/)
 ### Double Jeopardy
 - [Here's something new..'](doublejeopardy/somethingnew)
+### Forensics
+- [MMM...PI](forensics/mmm_pi.md)
+- [Slacker](forensics/slack.md)
