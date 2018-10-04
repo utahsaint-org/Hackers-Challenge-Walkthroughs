@@ -20,9 +20,9 @@ Let's take the first little bit and make some assumptions:
  - each number maps to a letter
  - underscores are spaces
 
-so let's translate: "5 20 3 24 34 22 26 5 4 _ 16 5 25 25 1 10 5" into "ABCDEFGAH IAJJKLA"
-and let's take "ABCDEFGAH IAJJKLA" and plug it into quipquip.
-top 4 answers:
+so let's translate: `5 20 3 24 34 22 26 5 4 _ 16 5 25 25 1 10 5` into `ABCDEFGAH IAJJKLA`
+and let's take `ABCDEFGAH IAJJKLA` and plug it into [quipqiup](https://quipqiup.com/)
+(a cryptogram solver). Top 4 answers:
 
 ```
 0	-0.332	EXPLOITED MESSAGE
@@ -31,7 +31,7 @@ top 4 answers:
 3	-0.470	EXPLAINED JESSORE
 ```
 
-Let's make the wild leap that the first two words are "encrypted message" and look closer.
+Let's make the wild leap that the first two words are `encrypted message` and look closer.
 
 ```
  5: e is the 5th letter in the alphabet
@@ -46,12 +46,12 @@ base 7? 20 in base 7 is 14 in base 10; 24 in base 7 is 18 in base 10.
 Ok, maybe we should convert all of the "normal" numbers (without decimals) into base 10 and
 find the corresponding ASCII letter.
 Further, let's assume that ',', ':', and '.' are literals.
-Now we get: "encrypted message to jim raynor,call for assistance from"
+Now we get: `encrypted message to jim raynor,call for assistance from`
 
 That leaves the following untranslated: .7 .1 .0 .4 .3
 Maybe those are litteral numbers: 7 1 0 4 3
 
-Now we get: "encrypted message to jim raynor,call for assistance from moonbase7"
+Now we get: `encrypted message to jim raynor,call for assistance from moonbase7`
 
 The python program [here](solve.py) solves the puzzle given the rules:
  - non-fractional numbers are base7 (convert to base10 and find the corresponding alphabet letter)
