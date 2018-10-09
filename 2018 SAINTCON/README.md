@@ -14,6 +14,8 @@ This is a collection of player created walkthroughs for the 2018 SAINTCON Hacker
 Complete
 -----------
 
+### Classic Crypto
+- [S7erCref7](ClassicCrypto/S7erCref7/)
 ### Potent Pwnables
 - [i am groot](Potent_Pwnables/i_am_groot.md)
 - [PHP Fly Casting](Potent_Pwnables/PHP_Fly_Casting.md)
