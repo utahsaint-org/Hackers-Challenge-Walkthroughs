@@ -15,7 +15,8 @@ Complete
 -----------
 
 ### Classic Crypto
-- [S7erCref7](ClassicCrypto/S7erCref7/)
+- [S7erCref7 Moon Base (alternate)](ClassicCrypto/S7erCref7/)
+- [S7erCref7 Moon Base (alternate)](ClassicCrypto/S7erCref7%20Moon%20Base)
 ### Potent Pwnables
 - [i am groot](Potent_Pwnables/i_am_groot.md)
 - [PHP Fly Casting](Potent_Pwnables/PHP_Fly_Casting.md)
