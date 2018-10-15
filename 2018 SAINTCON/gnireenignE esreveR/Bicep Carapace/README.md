@@ -156,3 +156,38 @@ return (in a good world, this line will never run):
 ```
   5c:	e8bd8000 	ldmfd	sp!, {pc}
 ```
+
+# Solution using Binary Ninja
+
+I'm normally a fan of [binary ninja](https://binary.ninja/), but one thing I had yet to figure out how to do is
+to tell binja to load an arbitrary binary and treat it as a specific binary type. So, here it is several weeks
+after the Hackers Challenge and I finally figured out how to do it.
+
+Load the binary into binja as normal and it will show up in the hex view.
+
+![hex view](binja-hex.png)
+
+Now, use the script console (View|Script Console) and you'll get a python prompt. We need to tell binja to interpret
+the loaded bytes as 32 bit ARM (little endian). To do so:
+
+```
+bv.arch = Architecture['armv7']
+bv.platform = Platform['linux-armv7']
+bv.add_function(0)
+bv.reanalyze()
+```
+
+Now, when I select the Graph view, I get the following.
+
+![graph view](binja-graph.png)
+
+To see what's at offset 0x98 and 0x9c, I switch to linear view.
+
+![linear view](binja-linear.png)
+
+If you're curious what all architectures and platforms binja supports, try:
+
+```
+list(Architecture)
+list(Platform)
+```
