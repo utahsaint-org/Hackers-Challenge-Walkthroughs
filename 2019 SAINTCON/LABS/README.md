@@ -5,7 +5,6 @@
 ## ad1
 ## bogus
 ## containers
-## Enigma
 ## linux1-harder
 ## linux2
 ## recon
