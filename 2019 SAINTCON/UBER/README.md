@@ -27,7 +27,7 @@
  - cpux
 
 ## forensics
- - shamr - one
+ - [shamr - one](/2019%20SAINTCON/UBER/forensics/shamr-one)
  - invoice
  - Forensics1
  - Forensics3
