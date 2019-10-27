@@ -3,20 +3,20 @@
 > This is a collection of player created walkthroughs for the 2019 SAINTCON UBER Hackers Challenges.
 
 ## CrackMe-Smartly
- - AlgebraicNotation
+ - Algebraic Notation
  - Diceware
- - HashIdentification - xxxFind
+ - Hash Identification - xxxFind
  - OPVault
  - Masks
 
 ## CryptoMadness
- - BrilliantGuy
+ - Brilliant Guy
 
 ## DOUBLEJEOPARDY
- - RotorMeThis
- - MagicDee
+ - Rotor Me This
+ - Magic Dee
  - protocol
- - Onechance
+ - One chance
 
 ## Enigma
  - Badge01
@@ -27,7 +27,7 @@
  - cpux
 
 ## forensics
- - [shamr - one](/2019%20SAINTCON/UBER/forensics/shamr-one)
+ - [shamr-one](/2019%20SAINTCON/UBER/forensics/shamr-one)
  - invoice
  - Forensics1
  - Forensics3
@@ -49,7 +49,6 @@
  - telecopy
  - floppotron
  - bbslog
- - Pshhhkkkkkkrrrrakakingkakingkakingtshachchchchchchchcchadingdingding
 
 ## SE/OSINT
  - supersecurecam
@@ -59,9 +58,9 @@
  - RoomNum
 
 ## SpidersWeb
- - sourcecode
- - envvars
- - iobjectviaS3!
- - captain1
+ - source code
+ - env vars
+ - i object via S3!
+ - captain 1
 
 
