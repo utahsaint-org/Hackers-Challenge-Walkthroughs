@@ -1,4 +1,4 @@
 # forensics walkthroughs
 
  * [shamr-one](shamr-one)
- * [sham-wow](shamr-wow)
+ * [sham-wow](sham-wow)

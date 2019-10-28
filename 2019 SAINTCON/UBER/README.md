@@ -32,7 +32,7 @@
  - Forensics1
  - Forensics3
  - Forensics2
- - [shamr-wow](/2019%20SAINTCON/UBER/forensics/sham-wow)
+ - [sham-wow](/2019%20SAINTCON/UBER/forensics/sham-wow)
 
 ## PotentPwnables
  - 8ball
