@@ -7,7 +7,7 @@
  - Diceware
  - Hash Identification - xxxFind
  - OPVault
- - Masks
+ - [Masks](/2019%20SAINTCON/UBER/CrackMe-Smartly/Masks)
 
 ## CryptoMadness
  - Brilliant Guy
