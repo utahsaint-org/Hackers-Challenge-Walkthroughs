@@ -1,6 +1,6 @@
 # CrackMe-Smartly walkthroughs
 
-Masks
+[Masks](Masks)
 
 Algebraic Notation
 
