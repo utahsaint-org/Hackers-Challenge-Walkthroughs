@@ -58,8 +58,8 @@
  - RoomNum
 
 ## SpidersWeb
- - source code
- - env vars
+ - [source code](/2019%20SAINTCON/UBER/SpidersWeb/SourceCode)
+ - [env vars](/2019%20SAINTCON/UBER/SpidersWeb/EnvVars)
  - [i object via S3!](/2019%20SAINTCON/UBER/SpidersWeb/IObjectViaS3)
  - captain 1
 
