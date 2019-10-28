@@ -3,7 +3,7 @@
 > This is a collection of player created walkthroughs for the 2019 SAINTCON UBER Hackers Challenges.
 
 ## CrackMe-Smartly
- - Algebraic Notation
+ - [Algebraic Notation](/2019%20SAINTCON/UBER/CrackMe-Smartly/Alegrabic%20Notation)
  - Diceware
  - Hash Identification - xxxFind
  - OPVault
