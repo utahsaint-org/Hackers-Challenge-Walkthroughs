@@ -118,9 +118,10 @@ meltdown is the text "It just does not work on my computer". Most of the suggest
 are not viable given the level of access you have (i.e. you're not disabling hyperthreads
 in the BIOS, etc.). But, one says:
 
-"""
-Use a different variant of Meltdown. This can be changed in libkdump/libkdump.c in the line #define MELTDOWN meltdown_nonull. Try for example meltdown instead of meltdown_nonull, which works a lot better on some machines (but not at all on others).
-"""
+
+> Use a different variant of Meltdown. This can be changed in libkdump/libkdump.c in the line
+> #define MELTDOWN meltdown_nonull. Try for example meltdown instead of meltdown_nonull,
+> which works a lot better on some machines (but not at all on others).
 
 On this particular machine, setting MELTDOWN to meltdown works well.
 
