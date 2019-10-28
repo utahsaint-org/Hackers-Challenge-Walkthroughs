@@ -2,7 +2,7 @@
 
 Masks
 
-Algebraic Notation
+[Algebraic Notation](Algebraic Notation)
 
 [Diceware](Diceware)
 
