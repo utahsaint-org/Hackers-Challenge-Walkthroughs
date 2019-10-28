@@ -8,13 +8,7 @@ This password is 8 characters in length and consists only of characters in upper
 ## Solution
 <details>
   <summary>Show solution</summary>
-  
-  ```javascript
-    function whatIsLove() {
-      console.log('Baby Don't hurt me. Don't hurt me');
-      return 'No more';
-    }
-  ```
+
 The problem outlined defines a fairly specific password policy for this hash we are suppose to break, combined with the name of the challenge, using hashcat's masking attack sounds like the perfect application to break this.
 
 `hashcat -a 3 -1 ?H 44a21e6d78a469804b228ac74ced47d7 ?1?1?1?1?1?1?1?1`
