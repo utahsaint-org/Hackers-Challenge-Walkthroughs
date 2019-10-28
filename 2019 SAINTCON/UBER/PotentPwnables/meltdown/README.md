@@ -138,6 +138,8 @@ ctf{yougotyourspectreinmymeltdown}
 
 ^C
 
+```
+
 # common errors
 
 I found several folks trying to use `memdump` from the meltdown archives to dump all of
