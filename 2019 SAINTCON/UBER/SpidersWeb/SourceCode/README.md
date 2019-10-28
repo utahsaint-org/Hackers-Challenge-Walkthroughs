@@ -4,6 +4,8 @@
 This vulnerable web application is packaged as a docker image and executed as an Amazon ECS Task. The web app attempts to provide an 'encoded' value for text entered in a text entry field on the page.
 
 ## Solution
+<details>
+ <summary>Show solution</summary>
 The challenge is to identify the command injection vulnerability in the application logic and craft appropriate injection strings to identify the flag in the system. Here are the steps I took to solve this challenge:
 
 1. Entered `ls -la'`  
@@ -23,3 +25,4 @@ drwxr-xr-x 2 root root 4096 Oct 13 21:12 templates
 
 3. Entered `'; cat app.py;'`  
 Service Returned: App source code with clear indications on how to obtain a flag. :)
+</details>
