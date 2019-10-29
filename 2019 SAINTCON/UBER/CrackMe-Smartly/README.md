@@ -1,8 +1,8 @@
 # CrackMe-Smartly walkthroughs
 
-Masks
+[Masks](Masks)
 
-Algebraic Notation
+[Algebraic Notation](Algebraic%20Notation)
 
 [Diceware](Diceware)
 

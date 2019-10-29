@@ -3,11 +3,11 @@
 > This is a collection of player created walkthroughs for the 2019 SAINTCON UBER Hackers Challenges.
 
 ## CrackMe-Smartly
- - Algebraic Notation
+ - [Algebraic Notation](/2019%20SAINTCON/UBER/CrackMe-Smartly/Algebraic%20Notation)
  - Diceware
  - Hash Identification - xxxFind
  - OPVault
- - Masks
+ - [Masks](/2019%20SAINTCON/UBER/CrackMe-Smartly/Masks)
 
 ## CryptoMadness
  - Brilliant Guy
@@ -32,11 +32,11 @@
  - Forensics1
  - Forensics3
  - Forensics2
- - ShamWow
+ - [sham-wow](/2019%20SAINTCON/UBER/forensics/sham-wow)
 
 ## PotentPwnables
  - 8ball
- - MeltDown
+ - [MeltDown](/2019%20SAINTCON/UBER/PotentPwnables/meltdown)
 
 ## PursuitsTrivial
  - QA
@@ -61,6 +61,9 @@
  - source code
  - env vars
  - i object via S3!
+ - [source code](/2019%20SAINTCON/UBER/SpidersWeb/SourceCode)
+ - [env vars](/2019%20SAINTCON/UBER/SpidersWeb/EnvVars)
+ - [i object via S3!](/2019%20SAINTCON/UBER/SpidersWeb/IObjectViaS3)
  - [captain 1](/2019%20SAINTCON/UBER/SpidersWeb/Captain1)
 
 
