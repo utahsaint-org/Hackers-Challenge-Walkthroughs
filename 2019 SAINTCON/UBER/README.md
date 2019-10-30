@@ -24,7 +24,7 @@
  - Badge02
 
 ## esreveRgnireenignE
- - cpux
+ - [cpux](/2019%20SAINTCON/UBER/esreveRgnireenignE/cpux)
 
 ## forensics
  - [shamr-one](/2019%20SAINTCON/UBER/forensics/shamr-one)
