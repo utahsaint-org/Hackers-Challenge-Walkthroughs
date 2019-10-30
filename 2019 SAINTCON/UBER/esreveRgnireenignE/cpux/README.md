@@ -6,6 +6,10 @@ CPU CPU CPU CPU CPU CPU CPU CPU
 CPU CPU CPU CPU CPU CPU CPU CPU
 CPU CPU CPU CPU CPU CPU CPU CPU
 
+# file
+
+[challenge](challenge)
+
 # Alternative hint
 
 Or maybe a little less obtuse: This challenge was written
