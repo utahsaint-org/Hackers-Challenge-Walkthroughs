@@ -6,7 +6,7 @@
  - [Algebraic Notation](/2019%20SAINTCON/UBER/CrackMe-Smartly/Algebraic%20Notation)
  - [Diceware](/2019%20SAINTCON/UBER/CrackMe-Smartly/Diceware)
  - Hash Identification - xxxFind
- - OPVault
+ - [OPVault](/2019%20SAINTCON/UBER/CrackMe-Smartly/OPVault)
  - [Masks](/2019%20SAINTCON/UBER/CrackMe-Smartly/Masks)
 
 ## CryptoMadness
