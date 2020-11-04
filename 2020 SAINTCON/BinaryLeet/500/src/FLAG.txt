@@ -1,0 +1,5 @@
+Raw Output: your_flag_is_in_morse_code
+Formatted: flag{your_flag_is_in_morse_code}
+
+Morse Code: 
+-.-- --- ..- .-. ··--·- ..-. .-.. .- --. ··--·- .. ... ··--·- .. -. ··--·- -- --- .-. ... . ··--·- -.-. --- -.. .
