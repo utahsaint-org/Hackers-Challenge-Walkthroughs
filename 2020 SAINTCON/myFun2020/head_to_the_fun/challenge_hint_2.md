@@ -1,0 +1,1 @@
+All internal networks should follow RFC-1918.

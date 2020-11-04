@@ -1,0 +1,1 @@
+You probably want to grab a wordlist. A top 10,000 should do.
