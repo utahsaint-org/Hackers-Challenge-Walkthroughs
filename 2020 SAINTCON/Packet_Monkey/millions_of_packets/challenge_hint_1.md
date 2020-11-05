@@ -1,0 +1,1 @@
+You can find all the information you need under the "Statistics" menu in Wireshark.
