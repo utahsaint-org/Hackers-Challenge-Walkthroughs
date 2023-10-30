@@ -7,4 +7,8 @@ https://pastebin.com/uR5WMQWq
 
 ## Solution
 
-1337
+The 'Թ' character is the ninth letter of the Armenian alphabet. Below is a table of character information as found on Wikipedia. Does anything stand out?
+
+![Թ](./encodings.png)
+
+The flag is: `What is 1337?`
