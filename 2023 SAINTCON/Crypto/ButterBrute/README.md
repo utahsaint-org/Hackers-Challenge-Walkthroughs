@@ -26,3 +26,11 @@ One solution to this challenge was to discover the [butterbrute](https://github.
 ❯ ls -l target/release/butterbrute                                                                                                                                                                                                                  09:26:20 AM
 -rwxr-xr-x@ 1 v01d  v01d  1017824 Oct 25 09:19 target/release/butterbrute
 ```
+
+Then if we run butterbrute against the provided bcup vault along with the provided wordlist, we find the vault password:
+
+```
+❯ butterbrute password_vault.bcup wordlist.txt                                                                                                                                11:32:51 AM
+[00:00:37] #######################-----------------    8113/14346
+Found Password:fishies!
+```
