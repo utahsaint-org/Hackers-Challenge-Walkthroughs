@@ -1,0 +1,7 @@
+# Minibadge challenge (p1)
+
+There were 2 flags stored in the minibadge's IC EEPROM that could be dumped / read over i2c. One of them was in plaintext and the other was immediately after the first flag and was base64 encoded.
+
+### Solution
+
+> HACKERSCHALLENGEflag{We'rein!}UEsDBBQAAAAAAEyaMlcQbS7MrAEAAKwBAAADAAAAb3V0/Td6WFoAAATm1rRGAgAhARYAAAB0L+Wj4AF/AWpdABCPCKgZctd1H34fZ0b5YnC3Q6oejNeLhKzdn9ZsHNPEKC1gpjikwP4OV1aCE1+oJf6/rdKjS9yXiNXFhgw+TzcgLj0zdo0nAKYCUc9M3OrCX+UyA9EPj2mKhgOQrg+PVZxyDhp2DQU1aNcADSSiYBzpKTx/rUO/YjxcxAMdCoGdLsym8Rs3xBzQBcrUShBzJ37oEqmA8mQCCidZA53vAXXEfYYQiqteVfKyBFOMAIUs8H0VSgqa9Pm6v16SbOs3fGCsovFx+jTxgi2+mo/UXP9tqL79rm3aMMJl/5x8XnPxfCo9MioYmnYYO3/uY2rLd1wgbPM+MU86Rholu30CZJml9Od92nHD9FumQTLbV2FOt/InVV0E1jsUpN4Vzt9HKKwF89e9AoxZK0gGxOSqNExmy8yxk716JMwTZv/PsrE32y1oUpciaBVFE5q2N9dx3K2VK9j7p6RXYKH4V+NARKQFF5sspNlHvZA+AAAA3jPoLR3lRxwAAYYDgAMAAKpRA6OxxGf7AgAAAAAEWVpQSwECFAAUAAAAAABMmjJXEG0uzKwBAACsAQAAAwAAAAAAAAAAAAAAtoEAAAAAb3V0UEsFBgAAAAABAAEAMQAAAM0BAAAAAA==Persistent,aren'twe?

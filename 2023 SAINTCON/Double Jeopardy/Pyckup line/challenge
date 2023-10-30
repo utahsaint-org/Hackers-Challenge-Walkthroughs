@@ -1,0 +1,929 @@
+163           0 RESUME                   0
+
+164           2 LOAD_CONST               1 (0)
+              4 LOAD_CONST               2 (('Cipher', 'algorithms', 'modes'))
+              6 IMPORT_NAME              0 (cryptography.hazmat.primitives.ciphers)
+              8 IMPORT_FROM              1 (Cipher)
+             10 STORE_FAST               0 (Cipher)
+             12 IMPORT_FROM              2 (algorithms)
+             14 STORE_FAST               1 (algorithms)
+             16 IMPORT_FROM              3 (modes)
+             18 STORE_FAST               2 (modes)
+             20 POP_TOP
+
+165          22 LOAD_CONST               1 (0)
+             24 LOAD_CONST               0 (None)
+             26 IMPORT_NAME              4 (random)
+             28 STORE_FAST               3 (random)
+
+166          30 LOAD_CONST               3 (b'\xf1\xb3\xf0"\x8e\xe8\xd3\xb3R\x89\xdb\x99\x97\xbe\xfb\x970\xe3\x16\xe2\xe9\xae\xae\xaf\xea{J0\xd4\xee\x88|\xeb\xb0\xc3|\xcf&\x87\xfbT\xf0mG\xe3\xa5\x08\x1cc\xa6\xba\xae\xfeL\x08>\xa5\xea\x84\xe2\x97\x06L\xc7\xba^B\xf6X\x10\xc7\xd0\xda"\xc5\x00\xd3\xcbW\x87')
+             32 STORE_FAST               4 (msg)
+
+167          34 PUSH_NULL
+             36 LOAD_FAST                3 (random)
+             38 LOAD_ATTR                5 (seed)
+             48 LOAD_CONST               4 (12345)
+             50 PRECALL                  1
+             54 CALL                     1
+             64 POP_TOP
+
+168          66 PUSH_NULL
+             68 LOAD_FAST                3 (random)
+             70 LOAD_ATTR                6 (randbytes)
+             80 LOAD_CONST               5 (48)
+             82 PRECALL                  1
+             86 CALL                     1
+             96 STORE_FAST               5 (x)
+
+169          98 LOAD_FAST                5 (x)
+            100 LOAD_CONST               6 (39)
+            102 BINARY_SUBSCR
+            112 STORE_FAST               6 (i3)
+
+170         114 LOAD_FAST                5 (x)
+            116 LOAD_CONST               7 (29)
+            118 BINARY_SUBSCR
+            128 STORE_FAST               7 (i47)
+
+171         130 LOAD_FAST                5 (x)
+            132 LOAD_CONST               8 (17)
+            134 BINARY_SUBSCR
+            144 STORE_FAST               8 (i45)
+
+172         146 LOAD_FAST                5 (x)
+            148 LOAD_CONST               9 (42)
+            150 BINARY_SUBSCR
+            160 STORE_FAST               9 (i21)
+
+173         162 LOAD_FAST                5 (x)
+            164 LOAD_CONST              10 (3)
+            166 BINARY_SUBSCR
+            176 STORE_FAST              10 (i23)
+
+174         178 LOAD_FAST                5 (x)
+            180 LOAD_CONST              11 (12)
+            182 BINARY_SUBSCR
+            192 STORE_FAST              11 (i43)
+
+175         194 LOAD_FAST                5 (x)
+            196 LOAD_CONST              12 (26)
+            198 BINARY_SUBSCR
+            208 STORE_FAST              12 (i44)
+
+176         210 LOAD_FAST                5 (x)
+            212 LOAD_CONST              13 (23)
+            214 BINARY_SUBSCR
+            224 STORE_FAST              13 (i35)
+
+177         226 LOAD_FAST                5 (x)
+            228 LOAD_CONST              14 (37)
+            230 BINARY_SUBSCR
+            240 STORE_FAST              14 (i30)
+
+178         242 LOAD_FAST                5 (x)
+            244 LOAD_CONST              15 (2)
+            246 BINARY_SUBSCR
+            256 STORE_FAST              15 (i24)
+
+179         258 LOAD_FAST                5 (x)
+            260 LOAD_CONST              16 (7)
+            262 BINARY_SUBSCR
+            272 STORE_FAST              16 (i41)
+
+180         274 LOAD_FAST                5 (x)
+            276 LOAD_CONST              17 (47)
+            278 BINARY_SUBSCR
+            288 STORE_FAST              17 (i42)
+
+181         290 LOAD_FAST                5 (x)
+            292 LOAD_CONST              18 (43)
+            294 BINARY_SUBSCR
+            304 STORE_FAST              18 (i40)
+
+182         306 LOAD_FAST                5 (x)
+            308 LOAD_CONST              19 (1)
+            310 BINARY_SUBSCR
+            320 STORE_FAST              19 (i10)
+
+183         322 LOAD_FAST                5 (x)
+            324 LOAD_CONST              20 (24)
+            326 BINARY_SUBSCR
+            336 STORE_FAST              20 (i1)
+
+184         338 LOAD_FAST                5 (x)
+            340 LOAD_CONST              21 (22)
+            342 BINARY_SUBSCR
+            352 STORE_FAST              21 (i15)
+
+185         354 LOAD_FAST                5 (x)
+            356 LOAD_CONST              22 (5)
+            358 BINARY_SUBSCR
+            368 STORE_FAST              22 (i6)
+
+186         370 LOAD_FAST                5 (x)
+            372 LOAD_CONST              23 (6)
+            374 BINARY_SUBSCR
+            384 STORE_FAST              23 (i16)
+
+187         386 LOAD_FAST                5 (x)
+            388 LOAD_CONST              24 (19)
+            390 BINARY_SUBSCR
+            400 STORE_FAST              24 (i38)
+
+188         402 LOAD_FAST                5 (x)
+            404 LOAD_CONST              25 (32)
+            406 BINARY_SUBSCR
+            416 STORE_FAST              25 (i0)
+
+189         418 LOAD_FAST                5 (x)
+            420 LOAD_CONST              26 (33)
+            422 BINARY_SUBSCR
+            432 STORE_FAST              26 (i29)
+
+190         434 LOAD_FAST                5 (x)
+            436 LOAD_CONST              27 (38)
+            438 BINARY_SUBSCR
+            448 STORE_FAST              27 (i25)
+
+191         450 LOAD_FAST                5 (x)
+            452 LOAD_CONST              28 (18)
+            454 BINARY_SUBSCR
+            464 STORE_FAST              28 (i20)
+
+192         466 LOAD_FAST                5 (x)
+            468 LOAD_CONST              29 (44)
+            470 BINARY_SUBSCR
+            480 STORE_FAST              29 (i31)
+
+193         482 LOAD_FAST                5 (x)
+            484 LOAD_CONST              30 (46)
+            486 BINARY_SUBSCR
+            496 STORE_FAST              30 (i28)
+
+194         498 LOAD_FAST                5 (x)
+            500 LOAD_CONST              31 (45)
+            502 BINARY_SUBSCR
+            512 STORE_FAST              31 (i13)
+
+195         514 LOAD_FAST                5 (x)
+            516 LOAD_CONST              32 (34)
+            518 BINARY_SUBSCR
+            528 STORE_FAST              32 (i11)
+
+196         530 LOAD_FAST                5 (x)
+            532 LOAD_CONST              33 (31)
+            534 BINARY_SUBSCR
+            544 STORE_FAST              33 (i46)
+
+197         546 LOAD_FAST                5 (x)
+            548 LOAD_CONST              34 (9)
+            550 BINARY_SUBSCR
+            560 STORE_FAST              34 (i37)
+
+198         562 LOAD_FAST                5 (x)
+            564 LOAD_CONST              35 (10)
+            566 BINARY_SUBSCR
+            576 STORE_FAST              35 (i39)
+
+199         578 LOAD_FAST                5 (x)
+            580 LOAD_CONST              36 (16)
+            582 BINARY_SUBSCR
+            592 STORE_FAST              36 (i33)
+
+200         594 LOAD_FAST                5 (x)
+            596 LOAD_CONST              37 (20)
+            598 BINARY_SUBSCR
+            608 STORE_FAST              37 (i36)
+
+201         610 LOAD_FAST                5 (x)
+            612 LOAD_CONST              38 (8)
+            614 BINARY_SUBSCR
+            624 STORE_FAST              38 (i8)
+
+202         626 LOAD_FAST                5 (x)
+            628 LOAD_CONST              39 (27)
+            630 BINARY_SUBSCR
+            640 STORE_FAST              39 (i5)
+
+203         642 LOAD_FAST                5 (x)
+            644 LOAD_CONST              40 (35)
+            646 BINARY_SUBSCR
+            656 STORE_FAST              40 (i18)
+
+204         658 LOAD_FAST                5 (x)
+            660 LOAD_CONST              41 (36)
+            662 BINARY_SUBSCR
+            672 STORE_FAST              41 (i19)
+
+205         674 LOAD_FAST                5 (x)
+            676 LOAD_CONST              42 (40)
+            678 BINARY_SUBSCR
+            688 STORE_FAST              42 (i27)
+
+206         690 LOAD_FAST                5 (x)
+            692 LOAD_CONST              43 (13)
+            694 BINARY_SUBSCR
+            704 STORE_FAST              43 (i12)
+
+207         706 LOAD_FAST                5 (x)
+            708 LOAD_CONST              44 (4)
+            710 BINARY_SUBSCR
+            720 STORE_FAST              44 (i17)
+
+208         722 LOAD_FAST                5 (x)
+            724 LOAD_CONST              45 (15)
+            726 BINARY_SUBSCR
+            736 STORE_FAST              45 (i4)
+
+209         738 LOAD_FAST                5 (x)
+            740 LOAD_CONST               1 (0)
+            742 BINARY_SUBSCR
+            752 STORE_FAST              46 (i26)
+
+210         754 LOAD_FAST                5 (x)
+            756 LOAD_CONST              46 (30)
+            758 BINARY_SUBSCR
+            768 STORE_FAST              47 (i32)
+
+211         770 LOAD_FAST                5 (x)
+            772 LOAD_CONST              47 (25)
+            774 BINARY_SUBSCR
+            784 STORE_FAST              48 (i22)
+
+212         786 LOAD_FAST                5 (x)
+            788 LOAD_CONST              48 (21)
+            790 BINARY_SUBSCR
+            800 STORE_FAST              49 (i2)
+
+213         802 LOAD_FAST                5 (x)
+            804 LOAD_CONST              49 (28)
+            806 BINARY_SUBSCR
+            816 STORE_FAST              50 (i7)
+
+214         818 LOAD_FAST                5 (x)
+            820 LOAD_CONST              50 (14)
+            822 BINARY_SUBSCR
+            832 STORE_FAST              51 (i14)
+
+215         834 LOAD_FAST                5 (x)
+            836 LOAD_CONST              51 (41)
+            838 BINARY_SUBSCR
+            848 STORE_FAST              52 (i9)
+
+216         850 LOAD_FAST                5 (x)
+            852 LOAD_CONST              52 (11)
+            854 BINARY_SUBSCR
+            864 STORE_FAST              53 (i34)
+
+217         866 LOAD_FAST               48 (i22)
+            868 LOAD_FAST               25 (i0)
+            870 BINARY_OP                5 (*)
+            874 STORE_FAST              14 (i30)
+
+218         876 LOAD_FAST               50 (i7)
+            878 LOAD_FAST               20 (i1)
+            880 BINARY_OP               10 (-)
+            884 STORE_FAST              27 (i25)
+
+219         886 LOAD_FAST               12 (i44)
+            888 LOAD_FAST               49 (i2)
+            890 BINARY_OP                5 (*)
+            894 STORE_FAST              22 (i6)
+
+220         896 LOAD_FAST               14 (i30)
+            898 LOAD_FAST                6 (i3)
+            900 BINARY_OP                5 (*)
+            904 STORE_FAST              39 (i5)
+
+221         906 LOAD_FAST               40 (i18)
+            908 LOAD_FAST               45 (i4)
+            910 BINARY_OP                0 (+)
+            914 STORE_FAST              20 (i1)
+
+222         916 LOAD_FAST               10 (i23)
+            918 LOAD_FAST               39 (i5)
+            920 BINARY_OP               10 (-)
+            924 STORE_FAST              53 (i34)
+
+223         926 LOAD_FAST               45 (i4)
+            928 LOAD_FAST               22 (i6)
+            930 BINARY_OP               12 (^)
+            934 STORE_FAST              16 (i41)
+
+224         936 LOAD_FAST               28 (i20)
+            938 LOAD_FAST               50 (i7)
+            940 BINARY_OP               12 (^)
+            944 STORE_FAST              10 (i23)
+
+225         946 LOAD_FAST               33 (i46)
+            948 LOAD_FAST               38 (i8)
+            950 BINARY_OP                5 (*)
+            954 STORE_FAST              48 (i22)
+
+226         956 LOAD_FAST                6 (i3)
+            958 LOAD_FAST               52 (i9)
+            960 BINARY_OP               12 (^)
+            964 STORE_FAST              38 (i8)
+
+227         966 LOAD_FAST               11 (i43)
+            968 LOAD_FAST               19 (i10)
+            970 BINARY_OP               10 (-)
+            974 STORE_FAST              24 (i38)
+
+228         976 LOAD_FAST               36 (i33)
+            978 LOAD_FAST               32 (i11)
+            980 BINARY_OP                5 (*)
+            984 STORE_FAST              33 (i46)
+
+229         986 LOAD_FAST               23 (i16)
+            988 LOAD_FAST               43 (i12)
+            990 BINARY_OP                5 (*)
+            994 STORE_FAST              43 (i12)
+
+230         996 LOAD_FAST               20 (i1)
+            998 LOAD_FAST               31 (i13)
+           1000 BINARY_OP                0 (+)
+           1004 STORE_FAST               8 (i45)
+
+231        1006 LOAD_FAST               19 (i10)
+           1008 LOAD_FAST               51 (i14)
+           1010 BINARY_OP                5 (*)
+           1014 STORE_FAST              19 (i10)
+
+232        1016 LOAD_FAST               39 (i5)
+           1018 LOAD_FAST               21 (i15)
+           1020 BINARY_OP                5 (*)
+           1024 STORE_FAST              51 (i14)
+
+233        1026 LOAD_FAST               13 (i35)
+           1028 LOAD_FAST               23 (i16)
+           1030 BINARY_OP               10 (-)
+           1034 STORE_FAST              26 (i29)
+
+234        1036 LOAD_FAST               24 (i38)
+           1038 LOAD_FAST               44 (i17)
+           1040 BINARY_OP               12 (^)
+           1044 STORE_FAST              18 (i40)
+
+235        1046 LOAD_FAST                8 (i45)
+           1048 LOAD_FAST               40 (i18)
+           1050 BINARY_OP               12 (^)
+           1054 STORE_FAST              25 (i0)
+
+236        1056 LOAD_FAST               43 (i12)
+           1058 LOAD_FAST               41 (i19)
+           1060 BINARY_OP                0 (+)
+           1064 STORE_FAST              36 (i33)
+
+237        1066 LOAD_FAST               44 (i17)
+           1068 LOAD_FAST               28 (i20)
+           1070 BINARY_OP               12 (^)
+           1074 STORE_FAST              15 (i24)
+
+238        1076 LOAD_FAST                7 (i47)
+           1078 LOAD_FAST                9 (i21)
+           1080 BINARY_OP               12 (^)
+           1084 STORE_FAST              12 (i44)
+
+239        1086 LOAD_FAST               18 (i40)
+           1088 LOAD_FAST               48 (i22)
+           1090 BINARY_OP                5 (*)
+           1094 STORE_FAST              23 (i16)
+
+240        1096 LOAD_FAST               21 (i15)
+           1098 LOAD_FAST               10 (i23)
+           1100 BINARY_OP               10 (-)
+           1104 STORE_FAST              35 (i39)
+
+241        1106 LOAD_FAST               17 (i42)
+           1108 LOAD_FAST               15 (i24)
+           1110 BINARY_OP               12 (^)
+           1114 STORE_FAST               9 (i21)
+
+242        1116 LOAD_FAST               37 (i36)
+           1118 LOAD_FAST               27 (i25)
+           1120 BINARY_OP                0 (+)
+           1124 STORE_FAST              34 (i37)
+
+243        1126 LOAD_FAST               42 (i27)
+           1128 LOAD_FAST               46 (i26)
+           1130 BINARY_OP               12 (^)
+           1134 STORE_FAST               6 (i3)
+
+244        1136 LOAD_FAST               27 (i25)
+           1138 LOAD_FAST               42 (i27)
+           1140 BINARY_OP                0 (+)
+           1144 STORE_FAST              47 (i32)
+
+245        1146 LOAD_FAST               29 (i31)
+           1148 LOAD_FAST               30 (i28)
+           1150 BINARY_OP                5 (*)
+           1154 STORE_FAST              28 (i20)
+
+246        1156 LOAD_FAST               49 (i2)
+           1158 LOAD_FAST               26 (i29)
+           1160 BINARY_OP                0 (+)
+           1164 STORE_FAST              17 (i42)
+
+247        1166 LOAD_FAST                9 (i21)
+           1168 LOAD_FAST               14 (i30)
+           1170 BINARY_OP                5 (*)
+           1174 STORE_FAST              52 (i9)
+
+248        1176 LOAD_FAST               32 (i11)
+           1178 LOAD_FAST               29 (i31)
+           1180 BINARY_OP                0 (+)
+           1184 STORE_FAST              45 (i4)
+
+249        1186 LOAD_FAST               52 (i9)
+           1188 LOAD_FAST               47 (i32)
+           1190 BINARY_OP                0 (+)
+           1194 STORE_FAST              42 (i27)
+
+250        1196 LOAD_FAST               31 (i13)
+           1198 LOAD_FAST               36 (i33)
+           1200 BINARY_OP                5 (*)
+           1204 STORE_FAST              11 (i43)
+
+251        1206 LOAD_FAST               30 (i28)
+           1208 LOAD_FAST               53 (i34)
+           1210 BINARY_OP                5 (*)
+           1214 STORE_FAST              50 (i7)
+
+252        1216 LOAD_FAST               22 (i6)
+           1218 LOAD_FAST               13 (i35)
+           1220 BINARY_OP               12 (^)
+           1224 STORE_FAST              32 (i11)
+
+253        1226 LOAD_FAST               53 (i34)
+           1228 LOAD_FAST               37 (i36)
+           1230 BINARY_OP                0 (+)
+           1234 STORE_FAST              44 (i17)
+
+254        1236 LOAD_FAST               16 (i41)
+           1238 LOAD_FAST               34 (i37)
+           1240 BINARY_OP                0 (+)
+           1244 STORE_FAST              13 (i35)
+
+255        1246 LOAD_FAST               47 (i32)
+           1248 LOAD_FAST               24 (i38)
+           1250 BINARY_OP               12 (^)
+           1254 STORE_FAST              41 (i19)
+
+256        1256 LOAD_FAST               51 (i14)
+           1258 LOAD_FAST               35 (i39)
+           1260 BINARY_OP               10 (-)
+           1264 STORE_FAST              29 (i31)
+
+257        1266 LOAD_FAST               34 (i37)
+           1268 LOAD_FAST               18 (i40)
+           1270 BINARY_OP               10 (-)
+           1274 STORE_FAST              49 (i2)
+
+258        1276 LOAD_FAST               35 (i39)
+           1278 LOAD_FAST               16 (i41)
+           1280 BINARY_OP               10 (-)
+           1284 STORE_FAST               7 (i47)
+
+259        1286 LOAD_FAST               26 (i29)
+           1288 LOAD_FAST               17 (i42)
+           1290 BINARY_OP                5 (*)
+           1294 STORE_FAST              21 (i15)
+
+260        1296 LOAD_FAST               15 (i24)
+           1298 LOAD_FAST               11 (i43)
+           1300 BINARY_OP                0 (+)
+           1304 STORE_FAST              31 (i13)
+
+261        1306 LOAD_FAST               25 (i0)
+           1308 LOAD_FAST               12 (i44)
+           1310 BINARY_OP                5 (*)
+           1314 STORE_FAST              30 (i28)
+
+262        1316 LOAD_FAST               38 (i8)
+           1318 LOAD_FAST                8 (i45)
+           1320 BINARY_OP               10 (-)
+           1324 STORE_FAST              40 (i18)
+
+263        1326 LOAD_FAST               46 (i26)
+           1328 LOAD_FAST               33 (i46)
+           1330 BINARY_OP                5 (*)
+           1334 STORE_FAST              46 (i26)
+
+264        1336 LOAD_FAST               41 (i19)
+           1338 LOAD_FAST                7 (i47)
+           1340 BINARY_OP                0 (+)
+           1344 STORE_FAST              37 (i36)
+
+265        1346 BUILD_LIST               0
+           1348 STORE_FAST               5 (x)
+
+266        1350 LOAD_FAST                5 (x)
+           1352 LOAD_METHOD              7 (append)
+           1374 LOAD_FAST               46 (i26)
+           1376 PRECALL                  1
+           1380 CALL                     1
+           1390 POP_TOP
+
+267        1392 LOAD_FAST                5 (x)
+           1394 LOAD_METHOD              7 (append)
+           1416 LOAD_FAST               45 (i4)
+           1418 PRECALL                  1
+           1422 CALL                     1
+           1432 POP_TOP
+
+268        1434 LOAD_FAST                5 (x)
+           1436 LOAD_METHOD              7 (append)
+           1458 LOAD_FAST               13 (i35)
+           1460 PRECALL                  1
+           1464 CALL                     1
+           1474 POP_TOP
+
+269        1476 LOAD_FAST                5 (x)
+           1478 LOAD_METHOD              7 (append)
+           1500 LOAD_FAST               37 (i36)
+           1502 PRECALL                  1
+           1506 CALL                     1
+           1516 POP_TOP
+
+270        1518 LOAD_FAST                5 (x)
+           1520 LOAD_METHOD              7 (append)
+           1542 LOAD_FAST               44 (i17)
+           1544 PRECALL                  1
+           1548 CALL                     1
+           1558 POP_TOP
+
+271        1560 LOAD_FAST                5 (x)
+           1562 LOAD_METHOD              7 (append)
+           1584 LOAD_FAST               11 (i43)
+           1586 PRECALL                  1
+           1590 CALL                     1
+           1600 POP_TOP
+
+272        1602 LOAD_FAST                5 (x)
+           1604 LOAD_METHOD              7 (append)
+           1626 LOAD_FAST               47 (i32)
+           1628 PRECALL                  1
+           1632 CALL                     1
+           1642 POP_TOP
+
+273        1644 LOAD_FAST                5 (x)
+           1646 LOAD_METHOD              7 (append)
+           1668 LOAD_FAST               22 (i6)
+           1670 PRECALL                  1
+           1674 CALL                     1
+           1684 POP_TOP
+
+274        1686 LOAD_FAST                5 (x)
+           1688 LOAD_METHOD              7 (append)
+           1710 LOAD_FAST               17 (i42)
+           1712 PRECALL                  1
+           1716 CALL                     1
+           1726 POP_TOP
+
+275        1728 LOAD_FAST                5 (x)
+           1730 LOAD_METHOD              7 (append)
+           1752 LOAD_FAST               20 (i1)
+           1754 PRECALL                  1
+           1758 CALL                     1
+           1768 POP_TOP
+
+276        1770 LOAD_FAST                5 (x)
+           1772 LOAD_METHOD              7 (append)
+           1794 LOAD_FAST               36 (i33)
+           1796 PRECALL                  1
+           1800 CALL                     1
+           1810 POP_TOP
+
+277        1812 LOAD_FAST                5 (x)
+           1814 LOAD_METHOD              7 (append)
+           1836 LOAD_FAST               12 (i44)
+           1838 PRECALL                  1
+           1842 CALL                     1
+           1852 POP_TOP
+
+278        1854 LOAD_FAST                5 (x)
+           1856 LOAD_METHOD              7 (append)
+           1878 LOAD_FAST               23 (i16)
+           1880 PRECALL                  1
+           1884 CALL                     1
+           1894 POP_TOP
+
+279        1896 LOAD_FAST                5 (x)
+           1898 LOAD_METHOD              7 (append)
+           1920 LOAD_FAST                8 (i45)
+           1922 PRECALL                  1
+           1926 CALL                     1
+           1936 POP_TOP
+
+280        1938 LOAD_FAST                5 (x)
+           1940 LOAD_METHOD              7 (append)
+           1962 LOAD_FAST               51 (i14)
+           1964 PRECALL                  1
+           1968 CALL                     1
+           1978 POP_TOP
+
+281        1980 LOAD_FAST                5 (x)
+           1982 LOAD_METHOD              7 (append)
+           2004 LOAD_FAST               42 (i27)
+           2006 PRECALL                  1
+           2010 CALL                     1
+           2020 POP_TOP
+
+282        2022 LOAD_FAST                5 (x)
+           2024 LOAD_METHOD              7 (append)
+           2046 LOAD_FAST               50 (i7)
+           2048 PRECALL                  1
+           2052 CALL                     1
+           2062 POP_TOP
+
+283        2064 LOAD_FAST                5 (x)
+           2066 LOAD_METHOD              7 (append)
+           2088 LOAD_FAST               15 (i24)
+           2090 PRECALL                  1
+           2094 CALL                     1
+           2104 POP_TOP
+
+284        2106 LOAD_FAST                5 (x)
+           2108 LOAD_METHOD              7 (append)
+           2130 LOAD_FAST               33 (i46)
+           2132 PRECALL                  1
+           2136 CALL                     1
+           2146 POP_TOP
+
+285        2148 LOAD_FAST                5 (x)
+           2150 LOAD_METHOD              7 (append)
+           2172 LOAD_FAST               35 (i39)
+           2174 PRECALL                  1
+           2178 CALL                     1
+           2188 POP_TOP
+
+286        2190 LOAD_FAST                5 (x)
+           2192 LOAD_METHOD              7 (append)
+           2214 LOAD_FAST               21 (i15)
+           2216 PRECALL                  1
+           2220 CALL                     1
+           2230 POP_TOP
+
+287        2232 LOAD_FAST                5 (x)
+           2234 LOAD_METHOD              7 (append)
+           2256 LOAD_FAST               53 (i34)
+           2258 PRECALL                  1
+           2262 CALL                     1
+           2272 POP_TOP
+
+288        2274 LOAD_FAST                5 (x)
+           2276 LOAD_METHOD              7 (append)
+           2298 LOAD_FAST               30 (i28)
+           2300 PRECALL                  1
+           2304 CALL                     1
+           2314 POP_TOP
+
+289        2316 LOAD_FAST                5 (x)
+           2318 LOAD_METHOD              7 (append)
+           2340 LOAD_FAST               29 (i31)
+           2342 PRECALL                  1
+           2346 CALL                     1
+           2356 POP_TOP
+
+290        2358 LOAD_FAST                5 (x)
+           2360 LOAD_METHOD              7 (append)
+           2382 LOAD_FAST               18 (i40)
+           2384 PRECALL                  1
+           2388 CALL                     1
+           2398 POP_TOP
+
+291        2400 LOAD_FAST                5 (x)
+           2402 LOAD_METHOD              7 (append)
+           2424 LOAD_FAST               19 (i10)
+           2426 PRECALL                  1
+           2430 CALL                     1
+           2440 POP_TOP
+
+292        2442 LOAD_FAST                5 (x)
+           2444 LOAD_METHOD              7 (append)
+           2466 LOAD_FAST               41 (i19)
+           2468 PRECALL                  1
+           2472 CALL                     1
+           2482 POP_TOP
+
+293        2484 LOAD_FAST                5 (x)
+           2486 LOAD_METHOD              7 (append)
+           2508 LOAD_FAST                7 (i47)
+           2510 PRECALL                  1
+           2514 CALL                     1
+           2524 POP_TOP
+
+294        2526 LOAD_FAST                5 (x)
+           2528 LOAD_METHOD              7 (append)
+           2550 LOAD_FAST               24 (i38)
+           2552 PRECALL                  1
+           2556 CALL                     1
+           2566 POP_TOP
+
+295        2568 LOAD_FAST                5 (x)
+           2570 LOAD_METHOD              7 (append)
+           2592 LOAD_FAST               43 (i12)
+           2594 PRECALL                  1
+           2598 CALL                     1
+           2608 POP_TOP
+
+296        2610 LOAD_FAST                5 (x)
+           2612 LOAD_METHOD              7 (append)
+           2634 LOAD_FAST               10 (i23)
+           2636 PRECALL                  1
+           2640 CALL                     1
+           2650 POP_TOP
+
+297        2652 LOAD_FAST                5 (x)
+           2654 LOAD_METHOD              7 (append)
+           2676 LOAD_FAST               27 (i25)
+           2678 PRECALL                  1
+           2682 CALL                     1
+           2692 POP_TOP
+
+298        2694 LOAD_FAST                5 (x)
+           2696 LOAD_METHOD              7 (append)
+           2718 LOAD_FAST                6 (i3)
+           2720 PRECALL                  1
+           2724 CALL                     1
+           2734 POP_TOP
+
+299        2736 LOAD_FAST                5 (x)
+           2738 LOAD_METHOD              7 (append)
+           2760 LOAD_FAST               34 (i37)
+           2762 PRECALL                  1
+           2766 CALL                     1
+           2776 POP_TOP
+
+300        2778 LOAD_FAST                5 (x)
+           2780 LOAD_METHOD              7 (append)
+           2802 LOAD_FAST               39 (i5)
+           2804 PRECALL                  1
+           2808 CALL                     1
+           2818 POP_TOP
+
+301        2820 LOAD_FAST                5 (x)
+           2822 LOAD_METHOD              7 (append)
+           2844 LOAD_FAST               16 (i41)
+           2846 PRECALL                  1
+           2850 CALL                     1
+           2860 POP_TOP
+
+302        2862 LOAD_FAST                5 (x)
+           2864 LOAD_METHOD              7 (append)
+           2886 LOAD_FAST               49 (i2)
+           2888 PRECALL                  1
+           2892 CALL                     1
+           2902 POP_TOP
+
+303        2904 LOAD_FAST                5 (x)
+           2906 LOAD_METHOD              7 (append)
+           2928 LOAD_FAST               48 (i22)
+           2930 PRECALL                  1
+           2934 CALL                     1
+           2944 POP_TOP
+
+304        2946 LOAD_FAST                5 (x)
+           2948 LOAD_METHOD              7 (append)
+           2970 LOAD_FAST               32 (i11)
+           2972 PRECALL                  1
+           2976 CALL                     1
+           2986 POP_TOP
+
+305        2988 LOAD_FAST                5 (x)
+           2990 LOAD_METHOD              7 (append)
+           3012 LOAD_FAST               26 (i29)
+           3014 PRECALL                  1
+           3018 CALL                     1
+           3028 POP_TOP
+
+306        3030 LOAD_FAST                5 (x)
+           3032 LOAD_METHOD              7 (append)
+           3054 LOAD_FAST               31 (i13)
+           3056 PRECALL                  1
+           3060 CALL                     1
+           3070 POP_TOP
+
+307        3072 LOAD_FAST                5 (x)
+           3074 LOAD_METHOD              7 (append)
+           3096 LOAD_FAST               25 (i0)
+           3098 PRECALL                  1
+           3102 CALL                     1
+           3112 POP_TOP
+
+308        3114 LOAD_FAST                5 (x)
+           3116 LOAD_METHOD              7 (append)
+           3138 LOAD_FAST                9 (i21)
+           3140 PRECALL                  1
+           3144 CALL                     1
+           3154 POP_TOP
+
+309        3156 LOAD_FAST                5 (x)
+           3158 LOAD_METHOD              7 (append)
+           3180 LOAD_FAST               38 (i8)
+           3182 PRECALL                  1
+           3186 CALL                     1
+           3196 POP_TOP
+
+310        3198 LOAD_FAST                5 (x)
+           3200 LOAD_METHOD              7 (append)
+           3222 LOAD_FAST               52 (i9)
+           3224 PRECALL                  1
+           3228 CALL                     1
+           3238 POP_TOP
+
+311        3240 LOAD_FAST                5 (x)
+           3242 LOAD_METHOD              7 (append)
+           3264 LOAD_FAST               40 (i18)
+           3266 PRECALL                  1
+           3270 CALL                     1
+           3280 POP_TOP
+
+312        3282 LOAD_FAST                5 (x)
+           3284 LOAD_METHOD              7 (append)
+           3306 LOAD_FAST               28 (i20)
+           3308 PRECALL                  1
+           3312 CALL                     1
+           3322 POP_TOP
+
+313        3324 LOAD_FAST                5 (x)
+           3326 LOAD_METHOD              7 (append)
+           3348 LOAD_FAST               14 (i30)
+           3350 PRECALL                  1
+           3354 CALL                     1
+           3364 POP_TOP
+
+314        3366 LOAD_CONST              53 (<code object <listcomp> at 0x000001FE4A40A0B0, file "[redacted]" line 314>)
+           3368 MAKE_FUNCTION            0
+           3370 LOAD_FAST                5 (x)
+           3372 GET_ITER
+           3374 PRECALL                  0
+           3378 CALL                     0
+           3388 STORE_FAST               5 (x)
+
+315        3390 LOAD_GLOBAL             17 (NULL + bytearray)
+           3402 LOAD_FAST                5 (x)
+           3404 PRECALL                  1
+           3408 CALL                     1
+           3418 STORE_FAST               5 (x)
+
+316        3420 PUSH_NULL
+           3422 LOAD_FAST                0 (Cipher)
+           3424 PUSH_NULL
+           3426 LOAD_FAST                1 (algorithms)
+           3428 LOAD_ATTR                9 (AES256)
+           3438 LOAD_GLOBAL             17 (NULL + bytearray)
+           3450 LOAD_FAST                5 (x)
+           3452 LOAD_CONST               0 (None)
+           3454 LOAD_CONST              25 (32)
+           3456 BUILD_SLICE              2
+           3458 BINARY_SUBSCR
+           3468 PRECALL                  1
+           3472 CALL                     1
+           3482 PRECALL                  1
+           3486 CALL                     1
+           3496 PUSH_NULL
+           3498 LOAD_FAST                2 (modes)
+           3500 LOAD_ATTR               10 (CBC)
+           3510 LOAD_GLOBAL             17 (NULL + bytearray)
+           3522 LOAD_FAST                5 (x)
+           3524 LOAD_CONST              25 (32)
+           3526 LOAD_CONST               0 (None)
+           3528 BUILD_SLICE              2
+           3530 BINARY_SUBSCR
+           3540 PRECALL                  1
+           3544 CALL                     1
+           3554 PRECALL                  1
+           3558 CALL                     1
+           3568 PRECALL                  2
+           3572 CALL                     2
+           3582 LOAD_METHOD             11 (decryptor)
+           3604 PRECALL                  0
+           3608 CALL                     0
+           3618 STORE_FAST              54 (d)
+
+317        3620 LOAD_FAST               54 (d)
+           3622 LOAD_METHOD             12 (update)
+           3644 LOAD_FAST                4 (msg)
+           3646 PRECALL                  1
+           3650 CALL                     1
+           3660 LOAD_FAST               54 (d)
+           3662 LOAD_METHOD             13 (finalize)
+           3684 PRECALL                  0
+           3688 CALL                     0
+           3698 BINARY_OP                0 (+)
+           3702 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0x000001FE4A40A0B0, file "[redacted]" line 314>:
+314           0 RESUME                   0
+              2 BUILD_LIST               0
+              4 LOAD_FAST                0 (.0)
+        >>    6 FOR_ITER                 7 (to 22)
+              8 STORE_FAST               1 (i)
+             10 LOAD_FAST                1 (i)
+             12 LOAD_CONST               0 (256)
+             14 BINARY_OP                6 (%)
+             18 LIST_APPEND              2
+             20 JUMP_BACKWARD            8 (to 6)
+        >>   22 RETURN_VALUE
