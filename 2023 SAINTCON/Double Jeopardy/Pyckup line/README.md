@@ -24,5 +24,5 @@ Taking a closer look at the contents of the challenge file, it seems we're given
 
 > The dis module supports the analysis of CPython bytecode by disassembling it. The CPython bytecode which this module takes as an input is defined in the file Include/opcode.h and used by the compiler and the interpreter.
 
-Okay, great. So it seems like we're on the right track. Let's look through the challenge file some more and try to make sense of what the byte code is doing.
+Okay, great. So it seems like we're on the right track. Let's look through the challenge file some more and try to make sense of what the byte code does.
 
