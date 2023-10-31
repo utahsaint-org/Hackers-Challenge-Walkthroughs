@@ -212,7 +212,8 @@ Disassembly of <code object <listcomp> at 0x000001FE4A40A0B0, file "[redacted]" 
         >>   22 RETURN_VALUE
 ```
 
-This ends up simply being:
+This ends up being a list comprehsion that wraps any list values greater than 256 so each value fits in 1 byte / 8 bits.
+
 ```python
 x = [i % 256 for i in x]
 ```
@@ -275,6 +276,7 @@ Line 316
            3618 STORE_FAST              54 (d)
 ```
 
+Okay, there's a bit going on in this line. I won't go step through each instruction individually explaining each one but essentially, this is constructing a Cipher object passing in the AES key and the CBC iv. The key and iv come from the `x` list. It then calls decryptor on the instantiated Cipher object and stores the return value in the variable `d`.
 ```python
 d = Cipher(algorithms.AES(x[:32]), modes.CBC(x[32:48])).decryptor()
 ```
@@ -297,7 +299,17 @@ Line 317
            3702 RETURN_VALUE
 ```
 
-And finally, print we update the decryptor with msg and append the return value from d.finalize()
+And finally, we decrypt and print the message containing the flag
 ```python
 print(d.update(msg) + d.finalize())
 ```
+
+---
+
+And after all that hard tedious work, we can run the solve.py script and reveal the flag:
+
+```python
+b'look it could have been the jvm,right? or would that have been easier or harder?'
+```
+
+Neat, it worked!
