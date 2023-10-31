@@ -5,6 +5,8 @@
 
 `Clue:` This RFC defines the representation of time.
 
+>! What is 3339?
+
 ## 200
 
 `Clue:` This algorithm is used for time-based MFA.

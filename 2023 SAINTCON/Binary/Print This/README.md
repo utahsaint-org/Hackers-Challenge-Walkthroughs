@@ -4,6 +4,8 @@
 
 [lolly.zip](./lolly.zip)
 
+
+
 ## Solution
 
 Import the gcode in a slicer that has a cross section feature such as Simplify3D
