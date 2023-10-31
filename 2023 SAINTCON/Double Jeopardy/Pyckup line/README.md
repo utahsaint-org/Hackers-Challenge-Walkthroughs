@@ -159,6 +159,7 @@ Line 265
            1348 STORE_FAST               5 (x)
 ```
 
+Creates a empty list and stores it in the variable `x`
 ```python
 x = list()
 ```
@@ -175,6 +176,8 @@ Line 266 - 313
            1380 CALL                     1
            1390 POP_TOP
 ```
+
+Append variable `i26` to x
 
 ```python
 x.append(i26)
@@ -312,4 +315,4 @@ And after all that hard tedious work, we can run the complete [solve.py](./solve
 b'look it could have been the jvm,right? or would that have been easier or harder?'
 ```
 
-Neat, it worked!
+Neat, it worked! By knowing the seed that was fed to random, we're able to reproduce that exact same random bytes and therefore the same decryption key and iv.
