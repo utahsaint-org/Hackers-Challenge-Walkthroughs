@@ -306,7 +306,7 @@ print(d.update(msg) + d.finalize())
 
 ---
 
-And after all that hard tedious work, we can run the solve.py script and reveal the flag:
+And after all that hard tedious work, we can run the complete [solve.py](./solve.py) script and reveal the flag:
 
 ```python
 b'look it could have been the jvm,right? or would that have been easier or harder?'
