@@ -6,7 +6,7 @@ msg = b'\xf1\xb3\xf0"\x8e\xe8\xd3\xb3R\x89\xdb\x99\x97\xbe\xfb\x970\xe3\x16\xe2\
 random.seed(12345)
 x = random.randbytes(48)
 
-print('bytes: {}'.format(x))
+print("bytes: {}".format(x))
 
 # BINARY_SUBSCR = arr[indx]
 i3 = x[39]
@@ -162,4 +162,3 @@ x = [i % 256 for i in x]
 x = bytearray(x)
 d = Cipher(algorithms.AES(x[:32]), modes.CBC(x[32:48])).decryptor()
 print(d.update(msg) + d.finalize())
-
