@@ -24,45 +24,10 @@
 
 ## Hacker Jeopardy
 
-- [Unlock Them All](./Hacker%20Jeopardy/Unlock%20Them%20All/README.md)
-
-#### Crypto History
-
-- [100](./Hacker%20Jeopardy%20-%20Crypto%20History/README.md#100)
-- [200](./Hacker%20Jeopardy%20-%20Crypto%20History/README.md#200)
-- [300](./Hacker%20Jeopardy%20-%20Crypto%20History/README.md#300)
-- [400](./Hacker%20Jeopardy%20-%20Crypto%20History/README.md#400)
-
-#### Emoji Movies
-
-- [100](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#100)
-- [200](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#200)
-- [300](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#300)
-- [400](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#400)
-- [500](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#500)
-- [600](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#600)
-- [700](./Hacker%20Jeopardy%20-%20Emoji%20Movies/README.md#700)
-
-#### Hacker Tools
-
-- [100](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#100)
-- [200](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#200)
-- [300](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#300)
-- [400](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#400)
-- [500](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#500)
-- [600](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#600)
-- [700](./Hacker%20Jeopardy%20-%20Hacker%20Tools/README.md#700)
-
-
-#### Know your RFC
-
-- [100](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#100)
-- [200](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#200)
-- [300](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#300)
-- [400](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#400)
-- [500](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#500)
-- [600](./Hacker%20Jeopardy%20-%20Know%20your%20RFC/README.md#600)
-
+- [Crypto History](./Hacker%20Jeopardy/README.md#crypto-history)
+- [Emoji Movies](./Hacker%20Jeopardy/README.md#emoji-movies)
+- [Hacker Tools](./Hacker%20Jeopardy/README.md#hacker-tools)
+- [Know your RFC](./Hacker%20Jeopardy/README.md#know-your-rfc)
 
 ## HackMe
 
