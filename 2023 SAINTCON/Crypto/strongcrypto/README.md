@@ -110,7 +110,7 @@ gives us the following:
 abacdeffgdhijklfdhmcdnadopagdqcdiamrrjdkffidsmjpdmtqiqeul
 ```
 
-Throwing that into something like https://quipquip.com doesn't yield something
+Throwing that into something like [quipqiup](https://quipqiup.com/) doesn't yield something
 that looks like a flag. 
 
 Looking more into the string, seems like we need to find out where the spaces
@@ -118,7 +118,7 @@ should go so that the cryptogram solvers can work better. All of the cryptogram 
 the most frequently in our text above and at opportune locations where a space
 may be appropriate. 
 
-This means we can try the following with [quipquip](https://quipquip.com):
+This means we can try the following with [quipqiup](https://quipqiup.com/):
 
 ```
 abac effg hijklf hmc na opag qc iamrrj kffi smjp mtqiqeul
@@ -136,7 +136,7 @@ And get a few results like:
 
 That is looking better, but if you are like nopesled, you can use a bit more help to arrive at the right answer. 
 
-There is an option in [quipquip](https://quipquip.com) to solve using a dicitonary and the results include:
+There is an option in [quipqiup](https://quipqiup.com/) to solve using a dicitonary and the results include:
 
 ```
 even good crypto can be used in really poor ways a?irig?t
@@ -164,4 +164,4 @@ RSA typically is exampled. In a practical sense, there are more factors in RSA
 to make this attack imposible, one such factor is padding. This ensures that
 encrypting the same input twice does not yield the same output twice.
 
-Also, knowing that tools like quipquip exist makes life much easier. 
+Also, knowing that tools like [quipqiup](https://quipqiup.com/) exist makes life much easier. 
