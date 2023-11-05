@@ -125,3 +125,38 @@
 ```
 
 ## Solution
+
+
+The file has some unique content. Looks like hex, but with the colons. After
+some searching you'll find that it is the intel hex format. There are various
+ways to convert to binary where you could try some standard tools and that would
+allow you to find the flag.
+
+First:
+
+```bash
+$ objcopy -I ihex -O binary hcFlag.ino.standard.hex hcFlag.bin
+```
+
+will convert the intel hex (`ihex`) to binary format where you can `strings` the binary:
+
+```bash
+$ strings hcFlag.bin 
+PossibleWithStrings
+ThisMightBe
+flag
+        h>s@
+```
+
+It is reversed, but you can make out the flag pretty quick: 
+
+> `ThisMightBePossibleWithStrings`. 
+
+### Extra Commentary
+
+So how would you have known this? Using `file` does not allude to the kind of
+file and knowing `objcopy` is a bit unique. Partly this is experience, but there
+were some hints. First, the microcontroller description was helpful and when
+combined with the `.ino` extension it would have helped guide you to this
+answer. Of course it took some searching to determine the right format, but
+these little hints pointed us in the right direction.
