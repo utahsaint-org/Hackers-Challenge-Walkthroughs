@@ -64,10 +64,10 @@
 
 ## Keep - Pwnables
 
-- [DC](./The%20Keep-Pwnables/DC/README.md)
-- [WS01 - User](./The%20Keep-Pwnables/WS01%20-%20User/README.md)
-- [WS02 - Admin](./The%20Keep-Pwnables/WS02%20-%20Admin/README.md)
-- [WS02 - User](./The%20Keep-Pwnables/WS02%20-%20User/README.md)
+- [DC](./The%20Keep-pwnables/DC/README.md)
+- [WS01 - User](./The%20Keep-pwnables/WS01%20-%20User/README.md)
+- [WS02 - Admin](./The%20Keep-pwnables/WS02%20-%20Admin/README.md)
+- [WS02 - User](./The%20Keep-pwnables/WS02%20-%20User/README.md)
 
 ## SAINTCON
 
