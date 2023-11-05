@@ -153,5 +153,9 @@ index 0000000..5b11eb4
 +id_rsa.pub
 ```
 
-And there we have it! It wasn't removed from the remote repository like it should have been, so we were able to recover it. Lesson here is to make sure you remove secrets not only from a local repo, but also from the remote.
+And there we have it! It wasn't removed from the remote repository like it should have been, so we were able to recover it. A couple lessons learned from this are:
 
+1. Remove secrets from the remote repository and not just a local copy.
+2. Don't forward your ssh-agent to just any host because an attacker will likely find and use it.
+
+Read [here](https://web.archive.org/web/20230916111651/https://smallstep.com/blog/ssh-agent-explained/) for a more detailed write-up about ssh-agent forwarding, the risks involed and how to mitigate the risk.
