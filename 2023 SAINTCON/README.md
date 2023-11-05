@@ -2,7 +2,6 @@
 
 ## Binary
 
-
 - [Binary Uno](./Binary/Binary%20Uno/README.md)
 - [Is This For Real?](./Binary/Is%20This%20For%20Real?/README.md)
 - [Print This](./Binary/Print%20This/README.md)
