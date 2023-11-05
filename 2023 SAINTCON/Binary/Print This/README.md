@@ -4,11 +4,15 @@
 
 [lolly.zip](./lolly.zip)
 
+## Problem
 
+Slicing the lolly pop horizontally reveals our flag is likely inside. However, we cannot make out what the flag is.
+
+![thats not it](./nope.jpg)
 
 ## Solution
 
-Import the gcode in a slicer that has a cross section feature such as Simplify3D
+Import the gcode in slicing software that has a vertical cross section feature, like Simplify3D.
 
 ![HowManyLicksDoesItTakeToGetToTheCenterOfASTL?](./solve.jpg)
 
