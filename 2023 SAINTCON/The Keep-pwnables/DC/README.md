@@ -20,7 +20,7 @@ This environment will be good for 3 hours.
 
 Welcome to the Keep!
 
-The you have been tasked with running a pentest on this client's network.
+You have been tasked with running a pentest on this client's network.
 
 They have placed a file flag.txt on the desktop of all the important users in the network. This will allow them to see how far you have gone.
 
