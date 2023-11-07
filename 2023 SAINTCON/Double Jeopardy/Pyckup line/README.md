@@ -279,7 +279,7 @@ Line 316
            3618 STORE_FAST              54 (d)
 ```
 
-Okay, there's a bit going on in this line. I won't go step through each instruction individually explaining each one but essentially, this is constructing a Cipher object passing in the AES key and the CBC iv. The key and iv come from the `x` list. It then calls decryptor on the instantiated Cipher object and stores the return value in the variable `d`.
+Okay, there's a bit going on in this line. I won't go step through each instruction individually explaining each one but essentially, this is constructing a Cipher object passing in the AES key and the CBC iv. The key and iv come from the `x` list. It then calls decryptor on the instantiated Cipher object storing the return value in `d`.
 ```python
 d = Cipher(algorithms.AES(x[:32]), modes.CBC(x[32:48])).decryptor()
 ```
@@ -302,17 +302,15 @@ Line 317
            3702 RETURN_VALUE
 ```
 
-And finally, we decrypt and print the message containing the flag
+Update the cipher text stored in the decryptor and finalize the decryption
 ```python
 print(d.update(msg) + d.finalize())
 ```
 
 ---
 
-And after all that hard tedious work, we can run the complete [solve.py](./solve.py) script and reveal the flag:
+And last but not least, we can run the [script](./solve.py) script and reveal the flag:
 
 ```python
 b'look it could have been the jvm,right? or would that have been easier or harder?'
 ```
-
-Neat, it worked! By knowing the seed that was fed to random, we're able to reproduce that exact same random bytes and therefore the same decryption key and iv.
